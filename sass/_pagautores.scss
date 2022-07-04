@@ -1,0 +1,47 @@
+main section {
+    .botones {
+        p {
+            padding: 5px 30px;
+            border-radius: 50px;
+            border: #1E32BE 2px solid;
+            color: #1E32BE;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 200ms ease-in;
+
+            &:hover {
+                color: #FFFFFF;
+                background-color: #1E32BE;
+                transition: all 300ms ease-in;
+            }
+        }
+
+        span {
+            padding: 5px 30px;
+            border-radius: 50px;
+            color: #1E32BE;
+            font-weight: 200;
+            font-size: 45px;
+        }
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bio {
+        display: flex;
+        justify-content: space-between;
+        margin: 6vh 2vw;
+
+        p {
+            width: 60vw;
+        }
+
+        img {
+            width: 18vw;
+            border-radius: 8px;
+            box-shadow: 6px 7px 10px 0px rgb(0 0 0 / 25%);
+        }
+    }
+}
