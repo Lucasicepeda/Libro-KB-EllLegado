@@ -7,6 +7,7 @@
 
 body {
   font-family: "Be Vietnam Pro", sans-serif;
+  background-color: #cfcfcf;
 }
 
 header {
@@ -86,8 +87,14 @@ main section div {
 main section div p {
   text-align: justify;
 }
+main section div p.bootstrap {
+  text-align: center;
+}
 main section div div {
   padding: 3vw;
+}
+main section div div div img {
+  width: 70vw;
 }
 
 footer {

@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: $color2;
 }
 
 header {
@@ -76,8 +77,9 @@ header {
         }
     }
 }
-
-main section {
+main section div p{}
+main {     
+    section {
     .titulos {
         display: flex;
         justify-content: space-between;
@@ -100,11 +102,20 @@ main section {
         p {
             text-align: justify;
         }
+        p.bootstrap{
+            text-align: center;
+        }
 
         div {
             padding: 3vw;
+            div{
+                img{
+                    width: 70vw;
+                }
+            }
         }
     }
+}
 }
 
 footer {
