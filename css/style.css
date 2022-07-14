@@ -12,8 +12,8 @@ body {
 
 header {
     height: 25vh;
-    background-color: #1e32be;
-    color: #ffffff;
+    background-color: #1E32BE;
+    color: #FFFFFF;
     display: flex;
     justify-content: space-between;
 }
@@ -36,8 +36,8 @@ header div h2 {
 }
 
 header nav {
-    background-color: #1e32be;
-    color: #ffffff;
+    background-color: #1E32BE;
+    color: #FFFFFF;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -67,12 +67,12 @@ header nav ul li:hover {
 
 header nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 header nav ul li a:visited {
     text-decoration: none;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 main section {
@@ -85,7 +85,7 @@ main section .titulos {
 }
 
 main section h3 {
-    color: #1e32be;
+    color: #1E32BE;
     font-weight: 800;
     font-size: 24px;
     margin: 0vh 0vw 6vw 0vw;
@@ -115,7 +115,7 @@ main section div div div img {
 
 footer {
     background-color: #808080;
-    color: #ffffff;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -136,23 +136,23 @@ main section .botones {
 main section .botones p {
     padding: 5px 30px;
     border-radius: 50px;
-    border: #1e32be 2px solid;
-    color: #1e32be;
+    border: #1E32BE 2px solid;
+    color: #1E32BE;
     font-weight: 600;
     cursor: pointer;
     transition: all 200ms ease-in;
 }
 
 main section .botones p:hover {
-    color: #ffffff;
-    background-color: #1e32be;
+    color: #FFFFFF;
+    background-color: #1E32BE;
     transition: all 300ms ease-in;
 }
 
 main section .botones span {
     padding: 5px 30px;
     border-radius: 50px;
-    color: #1e32be;
+    color: #1E32BE;
     font-weight: 200;
     font-size: 45px;
 }
