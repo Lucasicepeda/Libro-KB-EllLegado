@@ -62,3 +62,16 @@
         }
     }
 }
+
+@mixin footer {
+    background-color: #808080;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    p {
+        font-size: 12px;
+        margin: 20px 6vw;
+    }
+}

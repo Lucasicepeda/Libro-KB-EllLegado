@@ -1,15 +1,14 @@
-// @import '_variables.scss';
-// @import '_pagopiniones.scss';
-// @import '_pagcomprar.scss';
-// @import '_paggaleria.scss';
-// @import '_pagautoresyprologos.scss';
+@import '_variables.scss';
 @import '_mixings.scss';
+@import '_pag-inicio.scss';
+@import '_pag-autores.scss';
+@import '_pag-galeria.scss';
+
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
     /* border: red 0.2px solid; */
 }
 
@@ -17,137 +16,3 @@ body {
     font-family: 'Be Vietnam Pro', sans-serif;
     background-color: $color2;
 }
-
-header{
-        @include header
-}
-// header {
-//     height: 25vh;
-//     background-color: $color1;
-//     color: #FFFFFF;
-//     display: flex;
-//     justify-content: space-between;
-
-//     div {
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
-//         margin-left: 6vw;
-
-//         h1 {
-//             font-size: 40px;
-//             font-weight: 700;
-//         }
-
-//         h2 {
-//             font-size: 20px;
-//             font-weight: 400;
-//         }
-//     }
-
-//     nav {
-//         background-color: $color1;
-//         color: #FFFFFF;
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: flex-end;
-
-//         ul {
-//             display: flex;
-//             flex-direction: row;
-//             margin-right: 15vh;
-//             align-items: flex-end;
-
-//             li {
-//                 list-style: none;
-//                 margin: 0px 20px;
-//                 font-size: 20px;
-//                 font-weight: 300;
-//                 height: 20px;
-//                 transition: all 0.5s;
-
-//                 &:hover {
-//                     transform: translateY(-3px);
-//                     transition: all 0.5s;
-//                     cursor: pointer;
-//                 }
-
-//                 a {
-//                     text-decoration: none;
-//                     color: #FFFFFF;
-
-//                     &:visited {
-//                         text-decoration: none;
-//                         color: #FFFFFF;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
-
-main {     
-    section {
-    .titulos {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    h3 {
-        color: $color1;
-        font-weight: 800;
-        font-size: 24px;
-        margin: 14vh 0vw 6vh 6vw;
-    }
-
-    margin: 14vh 6vw;
-    
-    .opiniones{
-        margin: 14vh 6vw;
-    }
-
-    div {
-        display: flex;
-        font-weight: 300;
-        font-size: 16px;
-
-        p {
-            text-align: justify;
-        }
-        p.bootstrap{
-            text-align: center;
-        }
-        img{
-            width: 25vw;
-        }
-        div {
-            padding: 3vw;
-            div{
-                img{
-                    width: 70vw;
-                }
-            }
-        }
-    }
-}
-}
-
-footer {
-    background-color: #808080;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
-    p {
-        font-size: 12px;
-        margin: 20px 6vw;
-    }
-}
-
-
-
-
-
-
-

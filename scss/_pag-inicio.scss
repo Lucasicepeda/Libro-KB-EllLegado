@@ -1,0 +1,42 @@
+body.inicio{
+
+header{
+    @include header;
+}
+
+main{     
+    section {
+    h3 {
+        color: $color1;
+        font-weight: 800;
+        font-size: 24px;
+        margin: 0vh 0vw 6vw 0vw;
+    }
+
+    margin: 14vh 6vw;
+
+    div {
+        display: flex;
+        font-weight: 300;
+        font-size: 16px;
+
+        p {
+            text-align: justify;
+        }
+
+        div {
+            padding: 3vw;
+            div{
+                img{
+                    width: 70vw;
+                }
+            }
+        }
+    }
+}
+}
+
+footer {
+    @include footer;
+}
+}
