@@ -1,0 +1,64 @@
+@mixin header {
+    height: 25vh;
+    background-color: $color1;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 6vw;
+
+        h1 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+
+    nav {
+        background-color: $color1;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            margin-right: 15vh;
+            align-items: flex-end;
+
+            li {
+                list-style: none;
+                margin: 0px 20px;
+                font-size: 20px;
+                font-weight: 300;
+                height: 20px;
+                transition: all 0.5s;
+
+                &:hover {
+                    transform: translateY(-3px);
+                    transition: all 0.5s;
+                    cursor: pointer;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #FFFFFF;
+
+                    &:visited {
+                        text-decoration: none;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}

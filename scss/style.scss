@@ -1,4 +1,9 @@
-@import '_variables.scss';
+// @import '_variables.scss';
+// @import '_pagopiniones.scss';
+// @import '_pagcomprar.scss';
+// @import '_paggaleria.scss';
+// @import '_pagautoresyprologos.scss';
+@import '_mixings.scss';
 
 * {
     margin: 0px;
@@ -13,70 +18,73 @@ body {
     background-color: $color2;
 }
 
-header {
-    height: 25vh;
-    background-color: $color1;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-
-    div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 6vw;
-
-        h1 {
-            font-size: 40px;
-            font-weight: 700;
-        }
-
-        h2 {
-            font-size: 20px;
-            font-weight: 400;
-        }
-    }
-
-    nav {
-        background-color: $color1;
-        color: #FFFFFF;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-
-        ul {
-            display: flex;
-            flex-direction: row;
-            margin-right: 15vh;
-            align-items: flex-end;
-
-            li {
-                list-style: none;
-                margin: 0px 20px;
-                font-size: 20px;
-                font-weight: 300;
-                height: 20px;
-                transition: all 0.5s;
-
-                &:hover {
-                    transform: translateY(-3px);
-                    transition: all 0.5s;
-                    cursor: pointer;
-                }
-
-                a {
-                    text-decoration: none;
-                    color: #FFFFFF;
-
-                    &:visited {
-                        text-decoration: none;
-                        color: #FFFFFF;
-                    }
-                }
-            }
-        }
-    }
+header{
+        @include header
 }
+// header {
+//     height: 25vh;
+//     background-color: $color1;
+//     color: #FFFFFF;
+//     display: flex;
+//     justify-content: space-between;
+
+//     div {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         margin-left: 6vw;
+
+//         h1 {
+//             font-size: 40px;
+//             font-weight: 700;
+//         }
+
+//         h2 {
+//             font-size: 20px;
+//             font-weight: 400;
+//         }
+//     }
+
+//     nav {
+//         background-color: $color1;
+//         color: #FFFFFF;
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: flex-end;
+
+//         ul {
+//             display: flex;
+//             flex-direction: row;
+//             margin-right: 15vh;
+//             align-items: flex-end;
+
+//             li {
+//                 list-style: none;
+//                 margin: 0px 20px;
+//                 font-size: 20px;
+//                 font-weight: 300;
+//                 height: 20px;
+//                 transition: all 0.5s;
+
+//                 &:hover {
+//                     transform: translateY(-3px);
+//                     transition: all 0.5s;
+//                     cursor: pointer;
+//                 }
+
+//                 a {
+//                     text-decoration: none;
+//                     color: #FFFFFF;
+
+//                     &:visited {
+//                         text-decoration: none;
+//                         color: #FFFFFF;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 
 main {     
     section {
@@ -89,10 +97,14 @@ main {
         color: $color1;
         font-weight: 800;
         font-size: 24px;
-        margin: 0vh 0vw 6vw 0vw;
+        margin: 14vh 0vw 6vh 6vw;
     }
 
     margin: 14vh 6vw;
+    
+    .opiniones{
+        margin: 14vh 6vw;
+    }
 
     div {
         display: flex;
@@ -105,7 +117,9 @@ main {
         p.bootstrap{
             text-align: center;
         }
-
+        img{
+            width: 25vw;
+        }
         div {
             padding: 3vw;
             div{
@@ -131,52 +145,9 @@ footer {
     }
 }
 
-/* PAG AUTORES */
 
-main section {
-    .botones {
-        p {
-            padding: 5px 30px;
-            border-radius: 50px;
-            border: $color1 2px solid;
-            color: $color1;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 200ms ease-in;
 
-            &:hover {
-                color: #FFFFFF;
-                background-color: $color1;
-                transition: all 300ms ease-in;
-            }
-        }
 
-        span {
-            padding: 5px 30px;
-            border-radius: 50px;
-            color: $color1;
-            font-weight: 200;
-            font-size: 45px;
-        }
 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
 
-    .bio {
-        display: flex;
-        justify-content: space-between;
-        margin: 6vh 2vw;
 
-        p {
-            width: 60vw;
-        }
-
-        img {
-            width: 18vw;
-            border-radius: 8px;
-            box-shadow: 6px 7px 10px 0px rgb(0 0 0 / 25%);
-        }
-    }
-}
