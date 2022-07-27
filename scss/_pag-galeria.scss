@@ -16,6 +16,9 @@ body.galeria{
                 font-size: 24px;
                 margin: 0vh 0vw 6vw 0vw;
             }
+            .text{
+                margin-right: 3vw;
+            }
             div.Cap1{
                 display: flex;
                 justify-content: space-between;
@@ -26,7 +29,7 @@ body.galeria{
                 justify-content: space-between;
             }
             div.carousel.slide{
-                width: 60vw;
+                width: 55vw;
             }
         }
     }
