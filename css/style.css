@@ -1,167 +1,144 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    /* border: red 0.2px solid; */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* border: red 0.2px solid; */
 }
 
 body {
-    font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 
 header {
-    height: 25vh;
-    background-color: #1e32be;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between;
+  height: 25vh;
+  background-color: #1E32BE;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
 }
-
 header div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 6vw;
 }
-
 header div h1 {
-    font-size: 40px;
-    font-weight: 700;
+  font-size: 40px;
+  font-weight: 700;
 }
-
 header div h2 {
-    font-size: 20px;
-    font-weight: 400;
+  font-size: 20px;
+  font-weight: 400;
 }
-
 header nav {
-    background-color: #1e32be;
-    color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  background-color: #1E32BE;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
-
 header nav ul {
-    display: flex;
-    flex-direction: row;
-    margin-right: 15vh;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  margin-right: 15vh;
+  align-items: flex-end;
 }
-
 header nav ul li {
-    list-style: none;
-    margin: 0px 20px;
-    font-size: 20px;
-    font-weight: 300;
-    height: 20px;
-    transition: all 0.5s;
+  list-style: none;
+  margin: 0px 20px;
+  font-size: 20px;
+  font-weight: 300;
+  height: 20px;
+  transition: all 0.5s;
 }
-
 header nav ul li:hover {
-    transform: translateY(-3px);
-    transition: all 0.5s;
-    cursor: pointer;
+  transform: translateY(-3px);
+  transition: all 0.5s;
+  cursor: pointer;
 }
-
 header nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #FFFFFF;
 }
-
 header nav ul li a:visited {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 main section {
-    margin: 14vh 6vw;
+  margin: 14vh 6vw;
 }
-
 main section .titulos {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-
 main section h3 {
-    color: #1e32be;
-    font-weight: 800;
-    font-size: 24px;
-    margin: 0vh 0vw 6vw 0vw;
+  color: #1E32BE;
+  font-weight: 800;
+  font-size: 24px;
+  margin: 0vh 0vw 6vw 0vw;
 }
-
 main section div {
-    display: flex;
-    font-weight: 300;
-    font-size: 16px;
+  display: flex;
+  font-weight: 300;
+  font-size: 16px;
 }
-
 main section div p {
-    text-align: justify;
+  text-align: justify;
 }
-
 main section div div {
-    padding: 3vw;
+  padding: 3vw;
 }
 
 footer {
-    background-color: #808080;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  background-color: #808080;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-
 footer p {
-    font-size: 12px;
-    margin: 20px 6vw;
+  font-size: 12px;
+  margin: 20px 6vw;
 }
 
 /* PAG AUTORES */
 main section .botones {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 main section .botones p {
-    padding: 5px 30px;
-    border-radius: 50px;
-    border: #1e32be 2px solid;
-    color: #1e32be;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 200ms ease-in;
+  padding: 5px 30px;
+  border-radius: 50px;
+  border: #1E32BE 2px solid;
+  color: #1E32BE;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease-in;
 }
-
 main section .botones p:hover {
-    color: #ffffff;
-    background-color: #1e32be;
-    transition: all 300ms ease-in;
+  color: #FFFFFF;
+  background-color: #1E32BE;
+  transition: all 300ms ease-in;
 }
-
 main section .botones span {
-    padding: 5px 30px;
-    border-radius: 50px;
-    color: #1e32be;
-    font-weight: 200;
-    font-size: 45px;
+  padding: 5px 30px;
+  border-radius: 50px;
+  color: #1E32BE;
+  font-weight: 200;
+  font-size: 45px;
 }
-
 main section .bio {
-    display: flex;
-    justify-content: space-between;
-    margin: 6vh 2vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 6vh 2vw;
 }
-
 main section .bio p {
-    width: 60vw;
+  width: 60vw;
 }
-
 main section .bio img {
-    width: 18vw;
-    border-radius: 8px;
-    box-shadow: 6px 7px 10px 0px rgba(0, 0, 0, 0.25);
-}
-
-/*# sourceMappingURL=style.css.map */
+  width: 18vw;
+  border-radius: 8px;
+  box-shadow: 6px 7px 10px 0px rgba(0, 0, 0, 0.25);
+}/*# sourceMappingURL=style.css.map */
