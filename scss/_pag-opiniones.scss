@@ -1,0 +1,54 @@
+body.opiniones{
+
+    header{
+        @include header;
+    }
+
+    main{
+        section{
+            h3 {
+                color: $color1;
+                font-weight: 800;
+                font-size: 24px;
+                margin: 14vh 0vw 6vw 0vw;
+            }
+            margin: 5vh 6vw;
+            article{
+                display: flex;
+                flex-direction: column;
+                div.card{
+                    display: flex;
+                    align-items: center;
+                    margin: 3vh 0vw;
+                    img{
+                        width: 300px;
+                    }
+                    .gradient{
+                        position: relative;
+                        &::after{
+                            content:'';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            bottom: 0;
+                            width: 100%;
+                            height: 300px;
+                            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+                            opacity: 0.2;
+                        }
+                    }
+                    div.texto{
+                        margin: 2vh 5vw;
+                        h4{
+                            margin: 2vh 0vw;
+                            font-size: 25px
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        @include footer;
+    }
+}

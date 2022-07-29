@@ -1,0 +1,39 @@
+body.galeria{
+    // body.galeria header 
+    header{
+        @include header;
+        nav ul li{
+            height: 6px;
+        }
+    }
+    main{
+        section{
+            margin: 14vh 6vw;
+
+            h3 {
+                color: $color1;
+                font-weight: 800;
+                font-size: 24px;
+                margin: 0vh 0vw 6vw 0vw;
+            }
+            .text{
+                margin-right: 3vw;
+            }
+            div.Cap1{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10vh;
+            }
+            div.Cap2{
+                display: flex;
+                justify-content: space-between;
+            }
+            div.carousel.slide{
+                width: 55vw;
+            }
+        }
+    }
+    footer{
+        @include footer;
+    }
+}
