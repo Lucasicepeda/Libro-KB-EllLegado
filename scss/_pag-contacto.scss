@@ -1,0 +1,10 @@
+body.contacto{
+
+    header{
+        @include header;
+    }
+
+    footer {
+        @include footer;
+    }
+}

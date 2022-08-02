@@ -29,15 +29,15 @@ body.inicio header nav {
 body.inicio header nav ul {
   display: flex;
   flex-direction: row;
-  margin-right: 15vh;
+  margin-right: 10vh;
   align-items: flex-end;
 }
 body.inicio header nav ul li {
   list-style: none;
-  margin: 0px 20px;
-  font-size: 20px;
+  margin: 0px 12px;
+  font-size: 18px;
   font-weight: 300;
-  height: 20px;
+  height: 18px;
   transition: all 0.5s;
 }
 body.inicio header nav ul li:hover {
@@ -127,15 +127,15 @@ body.autores header nav {
 body.autores header nav ul {
   display: flex;
   flex-direction: row;
-  margin-right: 15vh;
+  margin-right: 10vh;
   align-items: flex-end;
 }
 body.autores header nav ul li {
   list-style: none;
-  margin: 0px 20px;
-  font-size: 20px;
+  margin: 0px 12px;
+  font-size: 18px;
   font-weight: 300;
-  height: 20px;
+  height: 18px;
   transition: all 0.5s;
 }
 body.autores header nav ul li:hover {
@@ -154,9 +154,19 @@ body.autores header nav ul li a:visited {
 body.autores main section {
   margin: 14vh 6vw;
 }
-body.autores main section div.titulos {
+body.autores main section div.titulos-sec1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+}
+body.autores main section h3 {
+  color: #1E32BE;
+  font-weight: 800;
+  font-size: 24px;
+  margin: 0vh 0vw 6vw 0vw;
+}
+body.autores main section div.titulos-sec2 {
+  display: flex;
+  justify-content: flex-end;
 }
 body.autores main section h3 {
   color: #1E32BE;
@@ -166,7 +176,7 @@ body.autores main section h3 {
 }
 body.autores .botones {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 body.autores .botones p {
@@ -254,15 +264,15 @@ body.galeria header nav {
 body.galeria header nav ul {
   display: flex;
   flex-direction: row;
-  margin-right: 15vh;
+  margin-right: 10vh;
   align-items: flex-end;
 }
 body.galeria header nav ul li {
   list-style: none;
-  margin: 0px 20px;
-  font-size: 20px;
+  margin: 0px 12px;
+  font-size: 18px;
   font-weight: 300;
-  height: 20px;
+  height: 18px;
   transition: all 0.5s;
 }
 body.galeria header nav ul li:hover {
@@ -356,15 +366,15 @@ body.opiniones header nav {
 body.opiniones header nav ul {
   display: flex;
   flex-direction: row;
-  margin-right: 15vh;
+  margin-right: 10vh;
   align-items: flex-end;
 }
 body.opiniones header nav ul li {
   list-style: none;
-  margin: 0px 20px;
-  font-size: 20px;
+  margin: 0px 12px;
+  font-size: 18px;
   font-weight: 300;
-  height: 20px;
+  height: 18px;
   transition: all 0.5s;
 }
 body.opiniones header nav ul li:hover {
@@ -438,6 +448,81 @@ body.opiniones footer .agradecimientos p {
   font-size: 20px;
 }
 body.opiniones footer .agradecimientos img {
+  padding: 3vh 0vw;
+  width: 250px;
+}
+
+body.contacto header {
+  height: 25vh;
+  background-color: #1E32BE;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+body.contacto header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 6vw;
+}
+body.contacto header div h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+body.contacto header div h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+body.contacto header nav {
+  background-color: #1E32BE;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+body.contacto header nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10vh;
+  align-items: flex-end;
+}
+body.contacto header nav ul li {
+  list-style: none;
+  margin: 0px 12px;
+  font-size: 18px;
+  font-weight: 300;
+  height: 18px;
+  transition: all 0.5s;
+}
+body.contacto header nav ul li:hover {
+  transform: translateY(-3px);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+body.contacto header nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+body.contacto header nav ul li a:visited {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+body.contacto footer {
+  background-color: #808080;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5vh 0vw;
+}
+body.contacto footer p {
+  font-size: 15px;
+  margin: 20px 6vw;
+}
+body.contacto footer .agradecimientos p {
+  font-size: 20px;
+}
+body.contacto footer .agradecimientos img {
   padding: 3vh 0vw;
   width: 250px;
 }
