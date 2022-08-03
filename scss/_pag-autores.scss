@@ -58,21 +58,46 @@ main section {
         align-items: center;
     }
 
-    .bio {
+    .biodamian, .bioconnie {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin: 6vh 2vw;
-
         p {
             width: 60vw;
         }
-
+    
         img {
             width: 18vw;
             border-radius: 8px;
             box-shadow: 6px 7px 10px 0px rgb(0 0 0 / 25%);
         }
     }
+    #day {
+        display: none;
+        #noche{
+            display: block;
+        }
+    }
+    #day:target {
+        display: block;
+        #noche{
+            display: none
+        }
+    }
+    #noche {
+        display: none;
+        #day{
+            display: block;
+        }
+    }
+    #noche:target {
+        display: block;
+        #day{
+            display: none
+        }
+    }
+
 
     footer {
         @include footer;

@@ -1,6 +1,6 @@
 body.inicio header {
   height: 25vh;
-  background-color: #1E32BE;
+  background-color: #3041c4;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
@@ -20,7 +20,7 @@ body.inicio header div h2 {
   font-weight: 400;
 }
 body.inicio header nav {
-  background-color: #1E32BE;
+  background-color: #3041c4;
   color: #FFFFFF;
   display: flex;
   flex-direction: row;
@@ -57,7 +57,7 @@ body.inicio main section {
   margin: 14vh 6vw;
 }
 body.inicio main section h3 {
-  color: #1E32BE;
+  color: #3041c4;
   font-weight: 800;
   font-size: 24px;
   margin: 0vh 0vw 6vw 0vw;
@@ -77,7 +77,7 @@ body.inicio main section div div div img {
   width: 70vw;
 }
 body.inicio footer {
-  background-color: #808080;
+  background-color: #5f5f5f;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -98,7 +98,7 @@ body.inicio footer .agradecimientos img {
 
 body.autores header {
   height: 25vh;
-  background-color: #1E32BE;
+  background-color: #3041c4;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
@@ -118,7 +118,7 @@ body.autores header div h2 {
   font-weight: 400;
 }
 body.autores header nav {
-  background-color: #1E32BE;
+  background-color: #3041c4;
   color: #FFFFFF;
   display: flex;
   flex-direction: row;
@@ -159,7 +159,7 @@ body.autores main section div.titulos-sec1 {
   justify-content: flex-start;
 }
 body.autores main section h3 {
-  color: #1E32BE;
+  color: #3041c4;
   font-weight: 800;
   font-size: 24px;
   margin: 0vh 0vw 6vw 0vw;
@@ -169,7 +169,7 @@ body.autores main section div.titulos-sec2 {
   justify-content: flex-end;
 }
 body.autores main section h3 {
-  color: #1E32BE;
+  color: #3041c4;
   font-weight: 800;
   font-size: 24px;
   margin: 0vh 0vw 6vw 0vw;
@@ -182,39 +182,64 @@ body.autores .botones {
 body.autores .botones p {
   padding: 5px 30px;
   border-radius: 50px;
-  border: #1E32BE 2px solid;
-  color: #1E32BE;
+  border: #3041c4 2px solid;
+  color: #3041c4;
   font-weight: 600;
   cursor: pointer;
   transition: all 200ms ease-in;
 }
 body.autores .botones p:hover {
   color: #FFFFFF;
-  background-color: #1E32BE;
+  background-color: #3041c4;
   transition: all 300ms ease-in;
 }
 body.autores .botones span {
   padding: 5px 30px;
   border-radius: 50px;
-  color: #1E32BE;
+  color: #3041c4;
   font-weight: 200;
   font-size: 45px;
 }
-body.autores .bio {
+body.autores .biodamian, body.autores .bioconnie {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 6vh 2vw;
 }
-body.autores .bio p {
+body.autores .biodamian p, body.autores .bioconnie p {
   width: 60vw;
 }
-body.autores .bio img {
+body.autores .biodamian img, body.autores .bioconnie img {
   width: 18vw;
   border-radius: 8px;
   box-shadow: 6px 7px 10px 0px rgba(0, 0, 0, 0.25);
 }
+body.autores #day {
+  display: none;
+}
+body.autores #day #noche {
+  display: block;
+}
+body.autores #day:target {
+  display: block;
+}
+body.autores #day:target #noche {
+  display: none;
+}
+body.autores #noche {
+  display: none;
+}
+body.autores #noche #day {
+  display: block;
+}
+body.autores #noche:target {
+  display: block;
+}
+body.autores #noche:target #day {
+  display: none;
+}
 body.autores footer {
-  background-color: #808080;
+  background-color: #5f5f5f;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -235,7 +260,7 @@ body.autores footer .agradecimientos img {
 
 body.galeria header {
   height: 25vh;
-  background-color: #1E32BE;
+  background-color: #3041c4;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
@@ -255,7 +280,7 @@ body.galeria header div h2 {
   font-weight: 400;
 }
 body.galeria header nav {
-  background-color: #1E32BE;
+  background-color: #3041c4;
   color: #FFFFFF;
   display: flex;
   flex-direction: row;
@@ -295,7 +320,7 @@ body.galeria main section {
   margin: 14vh 6vw;
 }
 body.galeria main section h3 {
-  color: #1E32BE;
+  color: #3041c4;
   font-weight: 800;
   font-size: 24px;
   margin: 0vh 0vw 6vw 0vw;
@@ -316,7 +341,7 @@ body.galeria main section div.carousel.slide {
   width: 55vw;
 }
 body.galeria footer {
-  background-color: #808080;
+  background-color: #5f5f5f;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -337,7 +362,7 @@ body.galeria footer .agradecimientos img {
 
 body.opiniones header {
   height: 25vh;
-  background-color: #1E32BE;
+  background-color: #3041c4;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
@@ -357,7 +382,7 @@ body.opiniones header div h2 {
   font-weight: 400;
 }
 body.opiniones header nav {
-  background-color: #1E32BE;
+  background-color: #3041c4;
   color: #FFFFFF;
   display: flex;
   flex-direction: row;
@@ -394,7 +419,7 @@ body.opiniones main section {
   margin: 5vh 6vw;
 }
 body.opiniones main section h3 {
-  color: #1E32BE;
+  color: #3041c4;
   font-weight: 800;
   font-size: 24px;
   margin: 14vh 0vw 6vw 0vw;
@@ -433,7 +458,7 @@ body.opiniones main section article div.card div.texto h4 {
   font-size: 25px;
 }
 body.opiniones footer {
-  background-color: #808080;
+  background-color: #5f5f5f;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -454,7 +479,7 @@ body.opiniones footer .agradecimientos img {
 
 body.contacto header {
   height: 25vh;
-  background-color: #1E32BE;
+  background-color: #3041c4;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
@@ -474,7 +499,7 @@ body.contacto header div h2 {
   font-weight: 400;
 }
 body.contacto header nav {
-  background-color: #1E32BE;
+  background-color: #3041c4;
   color: #FFFFFF;
   display: flex;
   flex-direction: row;
@@ -508,7 +533,7 @@ body.contacto header nav ul li a:visited {
   color: #FFFFFF;
 }
 body.contacto footer {
-  background-color: #808080;
+  background-color: #5f5f5f;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -536,5 +561,5 @@ body.contacto footer .agradecimientos img {
 
 body {
   font-family: "Be Vietnam Pro", sans-serif;
-  background-color: #cfcfcf;
+  background-color: #eeeeee;
 }/*# sourceMappingURL=style.css.map */
