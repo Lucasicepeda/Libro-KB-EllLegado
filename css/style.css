@@ -82,7 +82,7 @@ body.inicio footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 5vh 0vw;
+  padding: 0vh 0vw;
 }
 body.inicio footer p {
   font-size: 15px;
@@ -200,16 +200,16 @@ body.autores .botones span {
   font-weight: 200;
   font-size: 45px;
 }
-body.autores .biodamian, body.autores .bioconnie {
+body.autores .biodamian, body.autores .bioconnie, body.autores .prologo1, body.autores .prologo2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 6vh 2vw;
 }
-body.autores .biodamian p, body.autores .bioconnie p {
+body.autores .biodamian p, body.autores .bioconnie p, body.autores .prologo1 p, body.autores .prologo2 p {
   width: 60vw;
 }
-body.autores .biodamian img, body.autores .bioconnie img {
+body.autores .biodamian img, body.autores .bioconnie img, body.autores .prologo1 img, body.autores .prologo2 img {
   width: 18vw;
   border-radius: 8px;
   box-shadow: 6px 7px 10px 0px rgba(0, 0, 0, 0.25);
@@ -244,7 +244,7 @@ body.autores footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 5vh 0vw;
+  padding: 0vh 0vw;
 }
 body.autores footer p {
   font-size: 15px;
@@ -346,7 +346,7 @@ body.galeria footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 5vh 0vw;
+  padding: 0vh 0vw;
 }
 body.galeria footer p {
   font-size: 15px;
@@ -463,7 +463,7 @@ body.opiniones footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 5vh 0vw;
+  padding: 0vh 0vw;
 }
 body.opiniones footer p {
   font-size: 15px;
@@ -538,7 +538,7 @@ body.contacto footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 5vh 0vw;
+  padding: 0vh 0vw;
 }
 body.contacto footer p {
   font-size: 15px;

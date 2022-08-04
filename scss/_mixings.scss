@@ -69,7 +69,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 5vh 0vw;
+    padding: 0vh 0vw;
 
     p {
         font-size: 15px;
@@ -84,4 +84,21 @@
             width: 250px;
         }
     }
+}
+
+@mixin bioyprologo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6vh 2vw;
+    p {
+        width: 60vw;
+    }
+
+    img {
+        width: 18vw;
+        border-radius: 8px;
+        box-shadow: 6px 7px 10px 0px rgb(0 0 0 / 25%);
+    }
+    
 }
