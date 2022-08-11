@@ -328,14 +328,10 @@ body.galeria main section h3 {
 body.galeria main section .text {
   margin-right: 3vw;
 }
-body.galeria main section div.Cap1 {
+body.galeria main section > div {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10vh;
-}
-body.galeria main section div.Cap2 {
-  display: flex;
-  justify-content: space-between;
 }
 body.galeria main section div.carousel.slide {
   width: 55vw;
