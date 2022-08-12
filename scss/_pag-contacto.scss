@@ -4,6 +4,19 @@ body.contacto{
         @include header;
     }
 
+    main{
+        div{
+            display: flex;
+            // border: solid 1px rgb(0, 0, 0);
+            justify-content: center;
+            margin: 15vh 0vw;
+            column-gap: 10vw;
+            .Col1, .Col2{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
     footer {
         @include footer;
     }

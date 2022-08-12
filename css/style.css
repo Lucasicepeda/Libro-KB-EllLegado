@@ -69,6 +69,11 @@ body.inicio main section div {
 }
 body.inicio main section div p {
   text-align: justify;
+  font-size: larger;
+}
+body.inicio main section div p img {
+  padding-left: 2vw;
+  width: 400px;
 }
 body.inicio main section div div {
   padding: 3vw;
@@ -444,7 +449,7 @@ body.opiniones main section article div.card .gradient::after {
   width: 100%;
   height: 300px;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));
-  opacity: 0.2;
+  opacity: 0.3;
 }
 body.opiniones main section article div.card div.texto {
   margin: 2vh 5vw;
@@ -527,6 +532,17 @@ body.contacto header nav ul li a {
 body.contacto header nav ul li a:visited {
   text-decoration: none;
   color: #FFFFFF;
+}
+body.contacto main div {
+  display: flex;
+  justify-content: center;
+  margin: 15vh 0vw;
+  -moz-column-gap: 10vw;
+       column-gap: 10vw;
+}
+body.contacto main div .Col1, body.contacto main div .Col2 {
+  display: flex;
+  flex-direction: column;
 }
 body.contacto footer {
   background-color: #5f5f5f;
