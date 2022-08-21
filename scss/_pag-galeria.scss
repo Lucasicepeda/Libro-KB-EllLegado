@@ -9,7 +9,6 @@ body.galeria{
     main{
         section{
             margin: 14vh 6vw;
-
             h3 {
                 color: $color1;
                 font-weight: 800;
@@ -26,6 +25,10 @@ body.galeria{
             }
             div.carousel.slide{
                 width: 55vw;
+            }
+            img{
+                height: 550px;
+
             }
         }
     }
