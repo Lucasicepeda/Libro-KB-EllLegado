@@ -341,9 +341,6 @@ body.galeria main section > div {
 body.galeria main section div.carousel.slide {
   width: 55vw;
 }
-body.galeria main section img {
-  height: 550px;
-}
 body.galeria footer {
   background-color: #5f5f5f;
   color: #FFFFFF;
