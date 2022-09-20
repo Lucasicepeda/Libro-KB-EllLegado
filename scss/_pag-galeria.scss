@@ -6,6 +6,7 @@ body.galeria{
             height: 6px;
         }
     }
+
     main{
         section{
             margin: 14vh 6vw;
@@ -22,6 +23,7 @@ body.galeria{
                 display: flex;
                 justify-content: space-between;
                 margin-bottom: 10vh;
+                height: 70vh;
             }
             div.carousel.slide{
                 width: 55vw;
