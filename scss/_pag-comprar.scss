@@ -1,0 +1,10 @@
+body.comprar{
+
+    header{
+        @include header;
+    }
+
+    footer {
+        @include footer;
+    }
+}
