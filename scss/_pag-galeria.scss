@@ -24,6 +24,10 @@ body.galeria{
                 justify-content: space-between;
                 margin-bottom: 10vh;
                 height: 70vh;
+                
+                    p.bootstrap{
+                        text-shadow: 1px 1px 2px rgb(59, 59, 59);
+                    }
             }
             div.carousel.slide{
                 width: 55vw;
@@ -31,7 +35,9 @@ body.galeria{
             img{
                 height: 70vh;
                 border-radius: 10px
+                
             }
+            
         }
     }
     footer{

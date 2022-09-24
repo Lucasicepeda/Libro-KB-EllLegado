@@ -339,6 +339,9 @@ body.galeria main section > div {
   margin-bottom: 10vh;
   height: 70vh;
 }
+body.galeria main section > div p.bootstrap {
+  text-shadow: 1px 1px 2px rgb(59, 59, 59);
+}
 body.galeria main section div.carousel.slide {
   width: 55vw;
 }
