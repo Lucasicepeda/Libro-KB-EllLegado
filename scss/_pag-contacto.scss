@@ -1,30 +1,35 @@
-body.contacto{
+body.contacto {
 
-    header{
+    header {
         @include header;
     }
 
-    main{
-        .container{
+    main {
+        .container {
             border: solid 1px rgb(0, 0, 0);
             border-radius: 20px;
-        }
-        div{
             display: flex;
             // border: solid 1px rgb(0, 0, 0);
             justify-content: center;
             margin: 15vh 15vw;
             column-gap: 10vw;
-            .Col1, .Col2{
+            .Col1, .Col2 {
                 display: flex;
                 flex-direction: column;
                 margin: 6vw 0vh;
-                h4, p{
+                h4,
+                p {
                     margin: 4px 0px;
                 }
             }
         }
     }
+
+    .btncomprar {
+        // margin: 0px;
+        @include btnComprar
+    }
+
     footer {
         @include footer;
     }

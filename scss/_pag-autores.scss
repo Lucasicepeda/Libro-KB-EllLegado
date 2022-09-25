@@ -111,7 +111,9 @@ body.autores {
         display: block;
         transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
     }
-
+    .btncomprar{
+        @include btnComprar
+    }
     footer {
         @include footer;
     }

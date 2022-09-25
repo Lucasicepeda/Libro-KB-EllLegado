@@ -75,11 +75,13 @@
         font-size: 15px;
         margin: 20px 6vw;
     }
-    .agradecimientos{
-        p{
+
+    .agradecimientos {
+        p {
             font-size: 20px;
         }
-        img{
+
+        img {
             padding: 3vh 0vw;
             width: 250px;
         }
@@ -91,10 +93,12 @@
     justify-content: space-between;
     align-items: center;
     margin: 6vh 3vw;
+
     p {
         width: 60vw;
         text-align: justify;
     }
+
     img {
         width: 250px;
         height: 250px;
@@ -108,16 +112,29 @@
     justify-content: space-between;
     align-items: center;
     margin: 6vh 3vw;
-    div{
+
+    div {
         p {
             width: 60vw;
             text-align: justify;
         }
     }
+
     img {
         width: 250px;
         height: 250px;
         border-radius: 8px;
         box-shadow: 6px 7px 10px 0px rgb(0 0 0 / 25%);
+    }
+}
+
+@mixin btnComprar {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    a {
+        img {
+            width: 120px;
+        }
     }
 }

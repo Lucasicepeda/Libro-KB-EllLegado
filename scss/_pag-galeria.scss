@@ -37,7 +37,9 @@ body.galeria{
                 border-radius: 10px
                 
             }
-            
+        }
+        .btncomprar{
+            @include btnComprar
         }
     }
     footer{
