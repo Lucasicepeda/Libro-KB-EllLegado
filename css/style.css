@@ -391,7 +391,9 @@ body.galeria main section > div p.bootstrap {
   text-shadow: 1px 1px 2px rgb(59, 59, 59);
 }
 body.galeria main section div.carousel.slide {
+  box-shadow: 2px 2px 20px rgb(103, 102, 102);
   width: 55vw;
+  border-radius: 10px;
 }
 body.galeria main section img {
   height: 70vh;
@@ -481,8 +483,10 @@ body.contacto header nav ul li a:visited {
   color: #FFFFFF;
 }
 body.contacto main .container {
-  border: solid 1px rgb(0, 0, 0);
-  border-radius: 20px;
+  border-radius: 50px;
+  border: #22319f 2px solid;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgb(102, 101, 101);
   display: flex;
   justify-content: center;
   margin: 15vh 15vw;
@@ -499,12 +503,33 @@ body.contacto main .container .Col1 p, body.contacto main .container .Col2 h4,
 body.contacto main .container .Col2 p {
   margin: 4px 0px;
 }
-body.contacto .btncomprar {
+body.contacto main .container .Col2 form p {
+  display: flex;
+  justify-content: space-between;
+}
+body.contacto main .container .Col2 form input, body.contacto main .container .Col2 form textarea {
+  padding: 5px 30px;
+  border-radius: 50px;
+  border: #22319f 2px solid;
+  color: #22319f;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+body.contacto main .container .Col2 form input:hover, body.contacto main .container .Col2 form textarea:hover {
+  color: #FFFFFF;
+  background-color: #22319f;
+  transition: all 300ms ease-in;
+}
+body.contacto main .container .Col2 form textarea {
+  border-radius: 10px;
+}
+body.contacto main .btncomprar {
   position: fixed;
   right: 40px;
   bottom: 40px;
 }
-body.contacto .btncomprar a img {
+body.contacto main .btncomprar a img {
   width: 120px;
 }
 body.contacto footer {
