@@ -1,49 +1,59 @@
-body.galeria{
+body.galeria {
+
     // body.galeria header 
-    header{
+    header {
         @include header;
-        nav ul li{
+
+        nav ul li {
             height: 6px;
         }
     }
 
-    main{
-        section{
+    main {
+        section {
             margin: 14vh 6vw;
+
             h3 {
                 color: $color1;
                 font-weight: 800;
                 font-size: 24px;
                 margin: 0vh 0vw 6vw 0vw;
             }
-            .text{
+
+            .text {
                 margin-right: 3vw;
             }
-            >div{
+
+            >div {
                 display: flex;
                 justify-content: space-between;
                 margin-bottom: 10vh;
                 height: 70vh;
-                    p.bootstrap{
-                        text-shadow: 1px 1px 2px rgb(59, 59, 59);
-                    }
+
+                p.bootstrap {
+                    text-shadow: 1px 1px 2px rgb(59, 59, 59);
+                }
             }
-            div.carousel.slide{
+
+            div.carousel.slide {
                 box-shadow: 2px 2px 20px rgb(103, 102, 102);
                 width: 55vw;
                 border-radius: 10px;
             }
-            img{
+
+            img {
                 height: 70vh;
                 border-radius: 10px;
                 // box-shadow: 1px 1px 2px rgb(59, 59, 59);
             }
         }
-        .btncomprar{
+
+        .btncomprar {
             @include btnComprar
         }
     }
-    footer{
+
+    footer {
         @include footer;
     }
 }
