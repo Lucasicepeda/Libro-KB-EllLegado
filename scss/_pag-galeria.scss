@@ -22,30 +22,41 @@ body.galeria {
 
             .text {
                 margin-right: 3vw;
+                // h4{
+
+                // }
+                // p{
+
+                // }
             }
 
             >div {
                 display: flex;
                 justify-content: space-between;
-                margin-bottom: 10vh;
+                margin-bottom: 100px;
                 height: 70vh;
 
                 p.bootstrap {
-                    text-shadow: 1px 1px 2px rgb(59, 59, 59);
+                    color:azure;
+                    text-shadow: 2px 2px 2px rgb(59, 59, 59);
                 }
             }
 
             div.carousel.slide {
                 box-shadow: 2px 2px 20px rgb(103, 102, 102);
-                width: 55vw;
+                // width: 55vw;
+                width: 700px;
+                // height: 400px;
                 border-radius: 10px;
             }
 
             img {
-                height: 70vh;
+                height: 450px;
                 border-radius: 10px;
+                background-size:auto;
                 // box-shadow: 1px 1px 2px rgb(59, 59, 59);
             }
+
         }
 
         .btncomprar {
@@ -57,3 +68,8 @@ body.galeria {
         @include footer;
     }
 }
+// $carousel-control-color: white;
+// $carousel-control-width: 85%;
+// @import "../node_modules/bootstrap/scss/bootstrap";
+
+
