@@ -20,12 +20,15 @@ body.inicio {
                 font-weight: 300;
                 font-size: 16px;
 
+                p.Col2{
+                    margin-left: 3vw;
+                }
                 p {
                     text-align: justify;
                     font-size: larger;
 
                     img {
-                        padding-left: 2vw;
+                        padding-left: 0vw;
                         width: 400px;
                         // height: 440px;
                     }

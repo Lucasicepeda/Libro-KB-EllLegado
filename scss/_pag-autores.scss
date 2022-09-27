@@ -32,23 +32,11 @@ body.autores {
         }
     }
 
+    .boton, .readMore_btn, .readMore_btn2 {
+        @include botones
+    }
+
     .botones {
-        p {
-            padding: 5px 30px;
-            border-radius: 50px;
-            border: $color1 2px solid;
-            color: $color1;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 200ms ease-in;
-
-            &:hover {
-                color: #FFFFFF;
-                background-color: $color1;
-                transition: all 300ms ease-in;
-            }
-        }
-
         span {
             padding: 5px 30px;
             border-radius: 50px;
@@ -78,22 +66,7 @@ body.autores {
         align-items: center;
     }
     
-    .readMore_btn, .readMore_btn2 {
-        padding: 5px 30px;
-        border-radius: 50px;
-        border: $color1 2px solid;
-        margin: 30px 0px 0px 0px;
-        color: $color1;
-        font-weight: 600;
-        cursor: pointer;
-        transition: all 200ms ease-in;
-    }
-    .readMore_btn:hover, .readMore_btn2:hover {
-        color: #FFFFFF;
-        background-color: $color1;
-        transition: all 300ms ease-in;
-        // transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
-    }
+
     .hideText {
         display: none;
         transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
@@ -112,7 +85,7 @@ body.autores {
         transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
     }
     .btncomprar{
-        @include btnComprar
+        @include btnComprar;
     }
     footer {
         @include footer;

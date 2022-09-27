@@ -1,6 +1,7 @@
 body.inicio header {
   height: 25vh;
-  background-color: #22319f;
+  background-image: url(../img/assets/textura.png);
+  background-size: cover;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
@@ -20,7 +21,6 @@ body.inicio header div h2 {
   font-weight: 400;
 }
 body.inicio header nav {
-  background-color: #22319f;
   color: #FFFFFF;
   display: flex;
   flex-direction: row;
@@ -35,9 +35,9 @@ body.inicio header nav ul {
 body.inicio header nav ul li {
   list-style: none;
   margin: 0px 12px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
-  height: 18px;
+  height: 20px;
   transition: all 0.5s;
 }
 body.inicio header nav ul li:hover {
@@ -67,12 +67,15 @@ body.inicio main section div {
   font-weight: 300;
   font-size: 16px;
 }
+body.inicio main section div p.Col2 {
+  margin-left: 3vw;
+}
 body.inicio main section div p {
   text-align: justify;
   font-size: larger;
 }
 body.inicio main section div p img {
-  padding-left: 2vw;
+  padding-left: 0vw;
   width: 400px;
 }
 body.inicio main section div div {
@@ -83,14 +86,19 @@ body.inicio main section div div div img {
 }
 body.inicio main .btncomprar {
   position: fixed;
-  right: 40px;
-  bottom: 40px;
+  right: 70px;
+  bottom: 70px;
 }
 body.inicio main .btncomprar a img {
-  width: 120px;
+  width: 130px;
+}
+body.inicio main .btncomprar:hover img {
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgb(103, 102, 102);
+  transition: all 300ms ease-in;
 }
 body.inicio footer {
-  background-color: #5f5f5f;
+  background-color: #424242;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -111,7 +119,8 @@ body.inicio footer .agradecimientos img {
 
 body.autores header {
   height: 25vh;
-  background-color: #22319f;
+  background-image: url(../img/assets/textura.png);
+  background-size: cover;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
@@ -131,7 +140,6 @@ body.autores header div h2 {
   font-weight: 400;
 }
 body.autores header nav {
-  background-color: #22319f;
   color: #FFFFFF;
   display: flex;
   flex-direction: row;
@@ -146,9 +154,9 @@ body.autores header nav ul {
 body.autores header nav ul li {
   list-style: none;
   margin: 0px 12px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
-  height: 18px;
+  height: 20px;
   transition: all 0.5s;
 }
 body.autores header nav ul li:hover {
@@ -187,12 +195,7 @@ body.autores main section h3 {
   font-size: 24px;
   margin: 0vh 0vw 6vw 0vw;
 }
-body.autores .botones {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-body.autores .botones p {
+body.autores .boton, body.autores .readMore_btn, body.autores .readMore_btn2 {
   padding: 5px 30px;
   border-radius: 50px;
   border: #22319f 2px solid;
@@ -201,10 +204,15 @@ body.autores .botones p {
   cursor: pointer;
   transition: all 200ms ease-in;
 }
-body.autores .botones p:hover {
+body.autores .boton:hover, body.autores .readMore_btn:hover, body.autores .readMore_btn2:hover {
   color: #FFFFFF;
   background-color: #22319f;
   transition: all 300ms ease-in;
+}
+body.autores .botones {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 body.autores .botones span {
   padding: 5px 30px;
@@ -252,21 +260,6 @@ body.autores .container {
   justify-content: center;
   align-items: center;
 }
-body.autores .readMore_btn, body.autores .readMore_btn2 {
-  padding: 5px 30px;
-  border-radius: 50px;
-  border: #22319f 2px solid;
-  margin: 30px 0px 0px 0px;
-  color: #22319f;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 200ms ease-in;
-}
-body.autores .readMore_btn:hover, body.autores .readMore_btn2:hover {
-  color: #FFFFFF;
-  background-color: #22319f;
-  transition: all 300ms ease-in;
-}
 body.autores .hideText {
   display: none;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
@@ -285,14 +278,19 @@ body.autores .showText2 {
 }
 body.autores .btncomprar {
   position: fixed;
-  right: 40px;
-  bottom: 40px;
+  right: 70px;
+  bottom: 70px;
 }
 body.autores .btncomprar a img {
-  width: 120px;
+  width: 130px;
+}
+body.autores .btncomprar:hover img {
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgb(103, 102, 102);
+  transition: all 300ms ease-in;
 }
 body.autores footer {
-  background-color: #5f5f5f;
+  background-color: #424242;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -313,7 +311,8 @@ body.autores footer .agradecimientos img {
 
 body.galeria header {
   height: 25vh;
-  background-color: #22319f;
+  background-image: url(../img/assets/textura.png);
+  background-size: cover;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
@@ -333,7 +332,6 @@ body.galeria header div h2 {
   font-weight: 400;
 }
 body.galeria header nav {
-  background-color: #22319f;
   color: #FFFFFF;
   display: flex;
   flex-direction: row;
@@ -348,9 +346,9 @@ body.galeria header nav ul {
 body.galeria header nav ul li {
   list-style: none;
   margin: 0px 12px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
-  height: 18px;
+  height: 20px;
   transition: all 0.5s;
 }
 body.galeria header nav ul li:hover {
@@ -392,25 +390,34 @@ body.galeria main section > div p.bootstrap {
   text-shadow: 2px 2px 2px rgb(59, 59, 59);
 }
 body.galeria main section div.carousel.slide {
-  box-shadow: 2px 2px 20px rgb(103, 102, 102);
-  width: 700px;
+  box-shadow: 0px 0px 10px rgb(103, 102, 102);
+  width: 50vw;
+  border-radius: 10px;
+}
+body.galeria main section div.carousel.slide .carousel-control-prev-icon, body.galeria main section div.carousel.slide .carousel-control-next-icon {
+  box-shadow: 1px 1px 2px rgb(59, 59, 59);
+  background-color: rgb(59, 59, 59);
   border-radius: 10px;
 }
 body.galeria main section img {
-  height: 450px;
   border-radius: 10px;
   background-size: auto;
 }
 body.galeria main .btncomprar {
   position: fixed;
-  right: 40px;
-  bottom: 40px;
+  right: 70px;
+  bottom: 70px;
 }
 body.galeria main .btncomprar a img {
-  width: 120px;
+  width: 130px;
+}
+body.galeria main .btncomprar:hover img {
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgb(103, 102, 102);
+  transition: all 300ms ease-in;
 }
 body.galeria footer {
-  background-color: #5f5f5f;
+  background-color: #424242;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -431,7 +438,8 @@ body.galeria footer .agradecimientos img {
 
 body.contacto header {
   height: 25vh;
-  background-color: #22319f;
+  background-image: url(../img/assets/textura.png);
+  background-size: cover;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
@@ -451,7 +459,6 @@ body.contacto header div h2 {
   font-weight: 400;
 }
 body.contacto header nav {
-  background-color: #22319f;
   color: #FFFFFF;
   display: flex;
   flex-direction: row;
@@ -466,9 +473,9 @@ body.contacto header nav ul {
 body.contacto header nav ul li {
   list-style: none;
   margin: 0px 12px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
-  height: 18px;
+  height: 20px;
   transition: all 0.5s;
 }
 body.contacto header nav ul li:hover {
@@ -528,14 +535,19 @@ body.contacto main .container .Col2 form textarea {
 }
 body.contacto main .btncomprar {
   position: fixed;
-  right: 40px;
-  bottom: 40px;
+  right: 70px;
+  bottom: 70px;
 }
 body.contacto main .btncomprar a img {
-  width: 120px;
+  width: 130px;
+}
+body.contacto main .btncomprar:hover img {
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgb(103, 102, 102);
+  transition: all 300ms ease-in;
 }
 body.contacto footer {
-  background-color: #5f5f5f;
+  background-color: #424242;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -556,7 +568,8 @@ body.contacto footer .agradecimientos img {
 
 body.opiniones header {
   height: 25vh;
-  background-color: #22319f;
+  background-image: url(../img/assets/textura.png);
+  background-size: cover;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
@@ -576,7 +589,6 @@ body.opiniones header div h2 {
   font-weight: 400;
 }
 body.opiniones header nav {
-  background-color: #22319f;
   color: #FFFFFF;
   display: flex;
   flex-direction: row;
@@ -591,9 +603,9 @@ body.opiniones header nav ul {
 body.opiniones header nav ul li {
   list-style: none;
   margin: 0px 12px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
-  height: 18px;
+  height: 20px;
   transition: all 0.5s;
 }
 body.opiniones header nav ul li:hover {
@@ -653,14 +665,19 @@ body.opiniones main section article div.card div.texto h4 {
 }
 body.opiniones main .btncomprar {
   position: fixed;
-  right: 40px;
-  bottom: 40px;
+  right: 70px;
+  bottom: 70px;
 }
 body.opiniones main .btncomprar a img {
-  width: 120px;
+  width: 130px;
+}
+body.opiniones main .btncomprar:hover img {
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgb(103, 102, 102);
+  transition: all 300ms ease-in;
 }
 body.opiniones footer {
-  background-color: #5f5f5f;
+  background-color: #424242;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -688,5 +705,5 @@ body.opiniones footer .agradecimientos img {
 
 body {
   font-family: "Be Vietnam Pro", sans-serif;
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
