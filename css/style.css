@@ -86,8 +86,8 @@ body.inicio main section div div div img {
 }
 body.inicio main .btncomprar {
   position: fixed;
-  right: 70px;
-  bottom: 70px;
+  right: 50px;
+  bottom: 50px;
 }
 body.inicio main .btncomprar a img {
   width: 130px;
@@ -283,8 +283,8 @@ body.autores .showDamian, body.autores .showConnie, body.autores .showDionisio, 
 }
 body.autores .btncomprar {
   position: fixed;
-  right: 70px;
-  bottom: 70px;
+  right: 50px;
+  bottom: 50px;
 }
 body.autores .btncomprar a img {
   width: 130px;
@@ -383,7 +383,14 @@ body.galeria main section h3 {
   margin: 0vh 0vw 6vw 0vw;
 }
 body.galeria main section .text {
-  margin-right: 3vw;
+  height: 70vh;
+  margin-right: 5vw;
+}
+body.galeria main section .text h4 {
+  font-size: 22px;
+}
+body.galeria main section .text p {
+  font-size: 16px;
 }
 body.galeria main section > div {
   display: flex;
@@ -397,6 +404,7 @@ body.galeria main section > div p.bootstrap {
 }
 body.galeria main section div.carousel.slide {
   box-shadow: 0px 0px 10px rgb(103, 102, 102);
+  height: 70vh;
   width: 50vw;
   border-radius: 10px;
 }
@@ -405,14 +413,17 @@ body.galeria main section div.carousel.slide .carousel-control-prev-icon, body.g
   background-color: rgb(59, 59, 59);
   border-radius: 10px;
 }
+body.galeria main section .carousel-inner {
+  border-radius: 10px;
+}
 body.galeria main section img {
   border-radius: 10px;
   background-size: auto;
 }
 body.galeria main .btncomprar {
   position: fixed;
-  right: 70px;
-  bottom: 70px;
+  right: 50px;
+  bottom: 50px;
 }
 body.galeria main .btncomprar a img {
   width: 130px;
@@ -542,8 +553,8 @@ body.contacto main .container .Col2 form textarea {
 }
 body.contacto main .btncomprar {
   position: fixed;
-  right: 70px;
-  bottom: 70px;
+  right: 50px;
+  bottom: 50px;
 }
 body.contacto main .btncomprar a img {
   width: 130px;
@@ -673,8 +684,8 @@ body.opiniones main section article div.card div.texto h4 {
 }
 body.opiniones main .btncomprar {
   position: fixed;
-  right: 70px;
-  bottom: 70px;
+  right: 50px;
+  bottom: 50px;
 }
 body.opiniones main .btncomprar a img {
   width: 130px;
