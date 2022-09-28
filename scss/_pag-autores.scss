@@ -24,19 +24,17 @@ body.autores {
             justify-content: flex-end;
         }
 
-        h3 {
-            color: $color1;
-            font-weight: 800;
-            font-size: 24px;
-            margin: 0vh 0vw 6vw 0vw;
-        }
     }
 
-    .boton, .readMore_btn, .readMore_btn2 {
-        @include botones
+    .readMore_btn, .readMore_btn2 {
+        @include botonVerMas;
+        margin-top: 2vh;
     }
 
     .botones {
+        .boton{
+            @include botonNombres
+        }
         span {
             padding: 5px 30px;
             border-radius: 50px;
@@ -50,12 +48,12 @@ body.autores {
         align-items: center;
     }
 
-    .prologo1, .prologo2 {
+    .pOrville, .pDionisio {
         @include prologos
     }
 
-    .biodamian, .bioconnie{
-        @include bios
+    .bioDamian, .bioConnie{
+        @include bios;
     }
 
     .container {
@@ -67,23 +65,13 @@ body.autores {
     }
     
 
-    .hideText {
-        display: none;
-        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
-        
+    .hideDamian, .hideConnie, .hideDionisio, .hideOrville, .hideText, .hideText2{
+        @include hideText
     }
-    .hideText2 {
-        display: none;
-        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+    .showDamian, .showConnie, .showDionisio, .showOrville, .showText, .showText2{
+        @include showText
     }
-    .showText {
-        display: block;
-        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
-    }
-    .showText2 {
-        display: block;
-        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
-    }
+
     .btncomprar{
         @include btnComprar;
     }

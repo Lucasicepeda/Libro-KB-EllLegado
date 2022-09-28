@@ -36,35 +36,41 @@
                 <h3>AUTORES</h3>
             </div>
             <div class="botones">
-                <p class="boton">DAMIAN CEPEDA</p>
+                <button class="boton btnD" id="btnD">DAMIAN CEPEDA</button>
                 <span>|</span>
-                <p class="boton">CONNIE BENTSON</p>
+                <button class="boton btnConnie" id="btnConnie">CONNIE BENTSON</button>
             </div>
             <div class="bio">
-                <div class="biodamian">
-                    <img src="../img/pagAutores/fotoDamian.jpg" alt="Foto Damian Cepeda">
-                    <p> Osvaldo Damian Cepeda (51) es Licenciado en Periodismo. Está casado con Sandra Bustamante. Ellos
-                        tienen cuatro hijos y forman parte del staff del Liderazgo en la Iglesia Rios de Vida en Quilmes
-                        (Buenos Aires). Juntos, han participado, por el lapso de ocho años, en la capacitación de
-                        jóvenes con perfil misionero dentro del programa de HLN ( Centro de Capacitación Transcultural
-                        Hacia las Naciones) en las provincias de Mendoza y Santa Fe (Argentina). Damián desarrolla la
-                        función periodística en modalidad free-lance en el plano secular y colaborando en publicaciones
-                        dentro del ámbito cristiano.</p>
-                </div>
-                <div class="bioconnie">
-                    <img src="../img/pagAutores/fotoConnie.jpg" alt="Foto Connie Bentson">
-                    <p> Connie Bentson lleva 47 años casada con Dionisio Byler y tienen cuatro hijos y siete nietos,
-                        todos residiendo en España. La invitación en 1980 para servir brevemente en Burgos (Castilla y
-                        León) con una generación de jóvenes de comunidades católicas en avivamiento se convirtió en el
-                        llamado de Dios para toda la vida. Connie se dedicó a la familia y al desarrollo de la vida
-                        espiritual de la iglesia, pero considera que la mayor contribución fue la estabilidad que trajo
-                        la permanencia en el lugar. Escuchar la voz de Dios, poner en práctica la Palabra, amar la
-                        Iglesia de Cristo en todas sus formas, vivir con compasión por los marginados, anhelar la vida
-                        sobrenatural en el Espíritu y el avivamiento prometido a España, todo para traer el Reino de los
-                        Cielos a la Tierra, son muestras de su pasión personal por todo lo que Dios hace. Desde su
-                        jubilación en Cantabria ha colaborado con diferentes autores argentinos en la preparación de
-                        libros de edificación cristiana.</p>
-                </div>
+                <span id="hideDamian" class="hideDamian">
+                    <div class="bioDamian">
+                        <img src="../img/pagAutores/fotoDamian.jpg" alt="Foto Damian Cepeda">
+                        <p> Osvaldo Damian Cepeda (51) es Licenciado en Periodismo. Está casado con Sandra Bustamante. Ellos
+                            tienen cuatro hijos y forman parte del staff del Liderazgo en la Iglesia Rios de Vida en Quilmes
+                            (Buenos Aires). Juntos, han participado, por el lapso de ocho años, en la capacitación de
+                            jóvenes con perfil misionero dentro del programa de HLN ( Centro de Capacitación Transcultural
+                            Hacia las Naciones) en las provincias de Mendoza y Santa Fe (Argentina). Damián desarrolla la
+                            función periodística en modalidad free-lance en el plano secular y colaborando en publicaciones
+                            dentro del ámbito cristiano.
+                        </p>
+                    </div>
+                </span>
+                <span id="hideConnie" class="hideConnie">
+                    <div class="bioConnie">
+                        <img src="../img/pagAutores/fotoConnie.jpg" alt="Foto Connie Bentson">
+                        <p> Connie Bentson lleva 47 años casada con Dionisio Byler y tienen cuatro hijos y siete nietos,
+                            todos residiendo en España. La invitación en 1980 para servir brevemente en Burgos (Castilla y
+                            León) con una generación de jóvenes de comunidades católicas en avivamiento se convirtió en el
+                            llamado de Dios para toda la vida. Connie se dedicó a la familia y al desarrollo de la vida
+                            espiritual de la iglesia, pero considera que la mayor contribución fue la estabilidad que trajo
+                            la permanencia en el lugar. Escuchar la voz de Dios, poner en práctica la Palabra, amar la
+                            Iglesia de Cristo en todas sus formas, vivir con compasión por los marginados, anhelar la vida
+                            sobrenatural en el Espíritu y el avivamiento prometido a España, todo para traer el Reino de los
+                            Cielos a la Tierra, son muestras de su pasión personal por todo lo que Dios hace. Desde su
+                            jubilación en Cantabria ha colaborado con diferentes autores argentinos en la preparación de
+                            libros de edificación cristiana.
+                        </p>
+                    </div>
+                </span>
             </div>
         </section>
         <section>
@@ -72,12 +78,13 @@
                 <h3>PROLOGOS</h3>
             </div>
             <div class="botones">
-                <p class="boton">PRIMER PROLOGO</p>
+                <button class="boton btnOrville" id="btnOrville">ORVILLE SWINDOLL</button>
                 <span>|</span>
-                <p class="boton">SEGUNDO PROLOGO</p>
+                <button class="boton btnDionisio" id="btnDionisio">DIONISIO BYLER</button>
             </div>
             <div class="prologos">
-                <div class="prologo1">
+                <span id="hideOrville" class="hideOrville">
+                <div class="pOrville">
                     <div class="container">
                         <p>Orville Swindoll y su esposa Erma Jean, después de un breve tiempo en
                             México como misioneros en el año 1957, se trasladaron a Argentina en 1959.
@@ -118,7 +125,9 @@
                     </div>
                     <img src="../img/pagAutores/fotoOrville.jpg" alt="Foto Orville Swindoll">
                 </div>
-                <div class="prologo2">
+                </span>
+                <span id="hideDionisio" class="hideDionisio">
+                <div class="pDionisio">
                     <div class="container">
                         <p>Dionisio formaba parte de un equipo pastoral en Bragado, Bs. As., donde nació y vivió sus
                             primeros dos años de casado con Connie
@@ -171,6 +180,7 @@
                     </div>
                     <img src="../img/pagAutores/fotoDionisio.jpg"" alt=" Foto Dionisio Byler">
                 </div>
+                </span>
             </div>
         </section>
         <div class="btncomprar">

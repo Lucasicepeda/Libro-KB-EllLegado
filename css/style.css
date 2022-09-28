@@ -91,6 +91,7 @@ body.inicio main .btncomprar {
 }
 body.inicio main .btncomprar a img {
   width: 130px;
+  transition: all 300ms ease-in;
 }
 body.inicio main .btncomprar:hover img {
   border-radius: 50px;
@@ -189,13 +190,7 @@ body.autores main section div.titulos-sec2 {
   display: flex;
   justify-content: flex-end;
 }
-body.autores main section h3 {
-  color: #22319f;
-  font-weight: 800;
-  font-size: 24px;
-  margin: 0vh 0vw 6vw 0vw;
-}
-body.autores .boton, body.autores .readMore_btn, body.autores .readMore_btn2 {
+body.autores .readMore_btn, body.autores .readMore_btn2 {
   padding: 5px 30px;
   border-radius: 50px;
   border: #22319f 2px solid;
@@ -203,8 +198,9 @@ body.autores .boton, body.autores .readMore_btn, body.autores .readMore_btn2 {
   font-weight: 600;
   cursor: pointer;
   transition: all 200ms ease-in;
+  margin-top: 2vh;
 }
-body.autores .boton:hover, body.autores .readMore_btn:hover, body.autores .readMore_btn2:hover {
+body.autores .readMore_btn:hover, body.autores .readMore_btn2:hover {
   color: #FFFFFF;
   background-color: #22319f;
   transition: all 300ms ease-in;
@@ -214,6 +210,21 @@ body.autores .botones {
   justify-content: space-evenly;
   align-items: center;
 }
+body.autores .botones .boton {
+  padding: 8px 30px;
+  border-radius: 50px;
+  border: #22319f 2px solid;
+  background-color: #ffffff;
+  color: #22319f;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+body.autores .botones .boton:hover {
+  color: #FFFFFF;
+  background-color: #22319f;
+  transition: all 300ms ease-in;
+}
 body.autores .botones span {
   padding: 5px 30px;
   border-radius: 50px;
@@ -221,37 +232,39 @@ body.autores .botones span {
   font-weight: 200;
   font-size: 45px;
 }
-body.autores .prologo1, body.autores .prologo2 {
+body.autores .pOrville, body.autores .pDionisio {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 6vh 3vw;
 }
-body.autores .prologo1 div p, body.autores .prologo2 div p {
+body.autores .pOrville div p, body.autores .pDionisio div p {
   width: 60vw;
   text-align: justify;
 }
-body.autores .prologo1 img, body.autores .prologo2 img {
+body.autores .pOrville img, body.autores .pDionisio img {
   width: 250px;
   height: 250px;
   border-radius: 8px;
   box-shadow: 6px 7px 10px 0px rgba(0, 0, 0, 0.25);
 }
-body.autores .biodamian, body.autores .bioconnie {
+body.autores .bioDamian, body.autores .bioConnie {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 6vh 3vw;
 }
-body.autores .biodamian p, body.autores .bioconnie p {
+body.autores .bioDamian p, body.autores .bioConnie p {
   width: 60vw;
   text-align: justify;
+  transition: all 200ms ease-in;
 }
-body.autores .biodamian img, body.autores .bioconnie img {
+body.autores .bioDamian img, body.autores .bioConnie img {
   width: 250px;
   height: 250px;
   border-radius: 8px;
   box-shadow: 6px 7px 10px 0px rgba(0, 0, 0, 0.25);
+  transition: all 200ms ease-in;
 }
 body.autores .container {
   width: 100%;
@@ -260,19 +273,11 @@ body.autores .container {
   justify-content: center;
   align-items: center;
 }
-body.autores .hideText {
+body.autores .hideDamian, body.autores .hideConnie, body.autores .hideDionisio, body.autores .hideOrville, body.autores .hideText, body.autores .hideText2 {
   display: none;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
 }
-body.autores .hideText2 {
-  display: none;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
-}
-body.autores .showText {
-  display: block;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
-}
-body.autores .showText2 {
+body.autores .showDamian, body.autores .showConnie, body.autores .showDionisio, body.autores .showOrville, body.autores .showText, body.autores .showText2 {
   display: block;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
 }
@@ -283,6 +288,7 @@ body.autores .btncomprar {
 }
 body.autores .btncomprar a img {
   width: 130px;
+  transition: all 300ms ease-in;
 }
 body.autores .btncomprar:hover img {
   border-radius: 50px;
@@ -410,6 +416,7 @@ body.galeria main .btncomprar {
 }
 body.galeria main .btncomprar a img {
   width: 130px;
+  transition: all 300ms ease-in;
 }
 body.galeria main .btncomprar:hover img {
   border-radius: 50px;
@@ -540,6 +547,7 @@ body.contacto main .btncomprar {
 }
 body.contacto main .btncomprar a img {
   width: 130px;
+  transition: all 300ms ease-in;
 }
 body.contacto main .btncomprar:hover img {
   border-radius: 50px;
@@ -670,6 +678,7 @@ body.opiniones main .btncomprar {
 }
 body.opiniones main .btncomprar a img {
   width: 130px;
+  transition: all 300ms ease-in;
 }
 body.opiniones main .btncomprar:hover img {
   border-radius: 50px;
