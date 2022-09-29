@@ -396,7 +396,6 @@ body.galeria main section > div {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
-  height: 70vh;
 }
 body.galeria main section > div p.bootstrap {
   color: azure;
@@ -404,7 +403,6 @@ body.galeria main section > div p.bootstrap {
 }
 body.galeria main section div.carousel.slide {
   box-shadow: 0px 0px 10px rgb(103, 102, 102);
-  height: 70vh;
   width: 50vw;
   border-radius: 10px;
 }
@@ -512,11 +510,12 @@ body.contacto header nav ul li a:visited {
 body.contacto main .container {
   border-radius: 50px;
   border: #22319f 2px solid;
+  background-color: #22319f;
   border-radius: 10px;
   box-shadow: 3px 3px 10px rgb(102, 101, 101);
   display: flex;
   justify-content: center;
-  margin: 15vh 15vw;
+  margin: 18vh 18vw;
   -moz-column-gap: 10vw;
        column-gap: 10vw;
 }
@@ -530,11 +529,11 @@ body.contacto main .container .Col1 p, body.contacto main .container .Col2 h4,
 body.contacto main .container .Col2 p {
   margin: 4px 0px;
 }
-body.contacto main .container .Col2 form p {
+body.contacto main .container .Col1 form input {
   display: flex;
   justify-content: space-between;
 }
-body.contacto main .container .Col2 form input, body.contacto main .container .Col2 form textarea {
+body.contacto main .container .Col1 form input, body.contacto main .container .Col1 form textarea {
   padding: 5px 30px;
   border-radius: 50px;
   border: #22319f 2px solid;
@@ -543,12 +542,12 @@ body.contacto main .container .Col2 form input, body.contacto main .container .C
   cursor: pointer;
   transition: all 200ms ease-in;
 }
-body.contacto main .container .Col2 form input:hover, body.contacto main .container .Col2 form textarea:hover {
+body.contacto main .container .Col1 form input:hover, body.contacto main .container .Col1 form textarea:hover {
   color: #FFFFFF;
   background-color: #22319f;
   transition: all 300ms ease-in;
 }
-body.contacto main .container .Col2 form textarea {
+body.contacto main .container .Col1 form textarea {
   border-radius: 10px;
 }
 body.contacto main .btncomprar {

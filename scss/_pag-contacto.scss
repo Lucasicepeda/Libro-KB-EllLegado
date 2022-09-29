@@ -8,11 +8,12 @@ body.contacto {
         .container {
             border-radius: 50px;
             border: $color1 2px solid;
+            background-color: $color1;
             border-radius: 10px;
             box-shadow: 3px 3px 10px rgb(102, 101, 101);
             display: flex;
             justify-content: center;
-            margin: 15vh 15vw;
+            margin: 18vh 18vw;
             column-gap: 10vw;
 
             .Col1, .Col2 {
@@ -26,17 +27,12 @@ body.contacto {
                 }
             }
 
-            .Col2 {
+            .Col1 {
                 form {
-                    p{
+                    input{
                         display: flex;
                         justify-content: space-between;
                     }
-                    // input{
-                    //     position:fixed;
-                    //     right: 50px;
-                    //     bottom: 50px;
-                    // }
 
                     input, textarea {
                         padding: 5px 30px;

@@ -35,7 +35,6 @@ body.galeria {
                 display: flex;
                 justify-content: space-between;
                 margin-bottom: 100px;
-                height: 70vh;
 
                 p.bootstrap {
                     color:azure;
@@ -45,7 +44,6 @@ body.galeria {
 
             div.carousel.slide {
                 box-shadow: 0px 0px 10px rgb(103, 102, 102);
-                height: 70vh;
                 width: 50vw;
                 border-radius: 10px;
                 .carousel-control-prev-icon, .carousel-control-next-icon{
