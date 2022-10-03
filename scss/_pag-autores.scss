@@ -66,10 +66,10 @@ body.autores {
     
 
     .hideDamian, .hideConnie, .hideDionisio, .hideOrville, .hideText, .hideText2{
-        @include hideText
+        @include hideText;
     }
     .showDamian, .showConnie, .showDionisio, .showOrville, .showText, .showText2{
-        @include showText
+        @include showText;
     }
 
     .btncomprar{
