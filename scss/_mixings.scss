@@ -72,11 +72,18 @@
     align-items: center;
     justify-content: space-around;
     padding: 0vh 0vw;
-
-    p {
-        font-size: 15px;
-        margin: 20px 6vw;
+    .copyredes{
+        p {
+            font-size: 13px;
+            margin: 20px 6vw;
+        }
+        .redes{
+            display: flex;
+            justify-content: space-between;
+            margin: 0px 40px;
+        }
     }
+
 
     .agradecimientos {
         p {

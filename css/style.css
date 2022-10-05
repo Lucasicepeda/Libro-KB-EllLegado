@@ -106,9 +106,14 @@ body.inicio footer {
   justify-content: space-around;
   padding: 0vh 0vw;
 }
-body.inicio footer p {
-  font-size: 15px;
+body.inicio footer .copyredes p {
+  font-size: 13px;
   margin: 20px 6vw;
+}
+body.inicio footer .copyredes .redes {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px;
 }
 body.inicio footer .agradecimientos p {
   font-size: 20px;
@@ -303,9 +308,14 @@ body.autores footer {
   justify-content: space-around;
   padding: 0vh 0vw;
 }
-body.autores footer p {
-  font-size: 15px;
+body.autores footer .copyredes p {
+  font-size: 13px;
   margin: 20px 6vw;
+}
+body.autores footer .copyredes .redes {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px;
 }
 body.autores footer .agradecimientos p {
   font-size: 20px;
@@ -439,9 +449,14 @@ body.galeria footer {
   justify-content: space-around;
   padding: 0vh 0vw;
 }
-body.galeria footer p {
-  font-size: 15px;
+body.galeria footer .copyredes p {
+  font-size: 13px;
   margin: 20px 6vw;
+}
+body.galeria footer .copyredes .redes {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px;
 }
 body.galeria footer .agradecimientos p {
   font-size: 20px;
@@ -571,9 +586,14 @@ body.contacto footer {
   justify-content: space-around;
   padding: 0vh 0vw;
 }
-body.contacto footer p {
-  font-size: 15px;
+body.contacto footer .copyredes p {
+  font-size: 13px;
   margin: 20px 6vw;
+}
+body.contacto footer .copyredes .redes {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px;
 }
 body.contacto footer .agradecimientos p {
   font-size: 20px;
@@ -702,9 +722,14 @@ body.opiniones footer {
   justify-content: space-around;
   padding: 0vh 0vw;
 }
-body.opiniones footer p {
-  font-size: 15px;
+body.opiniones footer .copyredes p {
+  font-size: 13px;
   margin: 20px 6vw;
+}
+body.opiniones footer .copyredes .redes {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px;
 }
 body.opiniones footer .agradecimientos p {
   font-size: 20px;
