@@ -202,7 +202,7 @@ body.autores main section div.titulos-sec1 {
 body.autores main section h3 {
   color: #22319f;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 30px;
   margin: 0vh 0vw 6vw 0vw;
 }
 body.autores main section div.titulos-sec2 {
@@ -409,7 +409,7 @@ body.galeria header nav ul li a:visited {
   color: #FFFFFF;
 }
 body.galeria header nav ul li {
-  height: 6px;
+  height: 10px;
 }
 body.galeria main section {
   margin: 14vh 6vw;
@@ -417,7 +417,7 @@ body.galeria main section {
 body.galeria main section h3 {
   color: #22319f;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 30px;
   margin: 0vh 0vw 6vw 0vw;
 }
 body.galeria main section .text {
@@ -720,7 +720,7 @@ body.opiniones main section {
 body.opiniones main section h3 {
   color: #22319f;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 30px;
   margin: 14vh 0vw 6vw 0vw;
 }
 body.opiniones main section article {
