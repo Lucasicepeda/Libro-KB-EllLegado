@@ -6,15 +6,16 @@
 @import '_pag-contacto.scss';
 @import '_pag-opiniones.scss';
 
-
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* border: red 0.2px solid; */
+    // border: red 0.2px solid;
 }
 
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
     background-color: $color2;
 }
+@import '_media-queries.scss';
+

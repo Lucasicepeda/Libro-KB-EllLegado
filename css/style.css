@@ -112,7 +112,7 @@ body.inicio footer .copyredes {
   flex-direction: column;
 }
 body.inicio footer .copyredes p {
-  font-size: 11px;
+  font-size: 12px;
   margin: 0px 6vw;
 }
 body.inicio footer .copyredes .redes {
@@ -127,8 +127,8 @@ body.inicio footer .copyredes .redes a {
 }
 body.inicio footer .agradecimientos {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 body.inicio footer .agradecimientos p {
   font-size: 20px;
@@ -328,7 +328,7 @@ body.autores footer .copyredes {
   flex-direction: column;
 }
 body.autores footer .copyredes p {
-  font-size: 11px;
+  font-size: 12px;
   margin: 0px 6vw;
 }
 body.autores footer .copyredes .redes {
@@ -343,8 +343,8 @@ body.autores footer .copyredes .redes a {
 }
 body.autores footer .agradecimientos {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 body.autores footer .agradecimientos p {
   font-size: 20px;
@@ -483,7 +483,7 @@ body.galeria footer .copyredes {
   flex-direction: column;
 }
 body.galeria footer .copyredes p {
-  font-size: 11px;
+  font-size: 12px;
   margin: 0px 6vw;
 }
 body.galeria footer .copyredes .redes {
@@ -498,8 +498,8 @@ body.galeria footer .copyredes .redes a {
 }
 body.galeria footer .agradecimientos {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 body.galeria footer .agradecimientos p {
   font-size: 20px;
@@ -634,7 +634,7 @@ body.contacto footer .copyredes {
   flex-direction: column;
 }
 body.contacto footer .copyredes p {
-  font-size: 11px;
+  font-size: 12px;
   margin: 0px 6vw;
 }
 body.contacto footer .copyredes .redes {
@@ -649,8 +649,8 @@ body.contacto footer .copyredes .redes a {
 }
 body.contacto footer .agradecimientos {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 body.contacto footer .agradecimientos p {
   font-size: 20px;
@@ -784,7 +784,7 @@ body.opiniones footer .copyredes {
   flex-direction: column;
 }
 body.opiniones footer .copyredes p {
-  font-size: 11px;
+  font-size: 12px;
   margin: 0px 6vw;
 }
 body.opiniones footer .copyredes .redes {
@@ -799,8 +799,8 @@ body.opiniones footer .copyredes .redes a {
 }
 body.opiniones footer .agradecimientos {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 body.opiniones footer .agradecimientos p {
   font-size: 20px;
@@ -813,10 +813,284 @@ body.opiniones footer .agradecimientos img {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  /* border: red 0.2px solid; */
 }
 
 body {
   font-family: "Be Vietnam Pro", sans-serif;
   background-color: #ffffff;
+}
+
+@media screen and (max-width: 425px) {
+  body.inicio header {
+    height: 0%;
+    flex-direction: column;
+  }
+  body.inicio header div {
+    margin-left: 0vw;
+    align-items: center;
+    margin-top: 25px;
+  }
+  body.inicio header div h1 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  body.inicio header div h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  body.inicio header nav {
+    margin: 20px 0px 10px 20px;
+    justify-content: flex-start;
+  }
+  body.inicio header nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: normal;
+    margin: 0%;
+  }
+  body.inicio header nav ul li {
+    text-align: left;
+    margin: 6px 0px;
+    font-size: 25px;
+    height: 20px;
+  }
+  body.inicio header nav ul li a {
+    font-size: 20px;
+  }
+  body.inicio main section {
+    margin: 5vh 7vw;
+  }
+  body.inicio main section div {
+    flex-direction: column;
+  }
+  body.inicio main section div p.Col2 {
+    margin-left: 0vw;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  body.inicio footer {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  body.inicio footer .copyredes {
+    flex-direction: column;
+  }
+  body.inicio footer .copyredes .copyright {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  body.inicio footer .copyredes .redes {
+    justify-content: space-evenly;
+    margin: 25px 0px 10px 0px;
+  }
+  body.inicio footer .agradecimientos {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  body.inicio footer .agradecimientos a {
+    margin: 10px;
+  }
+  body.inicio footer .agradecimientos a img {
+    width: 200px;
+  }
+  body.autores header {
+    height: 0%;
+    flex-direction: column;
+  }
+  body.autores header div {
+    margin-left: 0vw;
+    align-items: center;
+    margin-top: 25px;
+  }
+  body.autores header div h1 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  body.autores header div h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  body.autores header nav {
+    margin: 20px 0px 10px 20px;
+    justify-content: flex-start;
+  }
+  body.autores header nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: normal;
+    margin: 0%;
+  }
+  body.autores header nav ul li {
+    text-align: left;
+    margin: 6px 0px;
+    font-size: 25px;
+    height: 20px;
+  }
+  body.autores header nav ul li a {
+    font-size: 20px;
+  }
+  body.autores main section {
+    margin: 5vh 7vw;
+  }
+  body.autores main section div {
+    flex-direction: column;
+  }
+  body.autores main section div h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  body.autores main section div button {
+    margin: 10px;
+  }
+  body.autores main section div span {
+    display: none;
+  }
+  body.autores main section div .bioDamian img, body.autores main section div .bioConnie img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  body.autores main section div .bioDamian p, body.autores main section div .bioConnie p {
+    width: 85vw;
+  }
+  body.autores main section div .pOrville, body.autores main section div .pDionisio {
+    flex-direction: column-reverse;
+  }
+  body.autores main section div .pOrville img, body.autores main section div .pDionisio img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  body.autores main section div .pOrville p, body.autores main section div .pDionisio p {
+    width: 85vw;
+  }
+  body.autores footer {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  body.autores footer .copyredes {
+    flex-direction: column;
+  }
+  body.autores footer .copyredes .copyright {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  body.autores footer .copyredes .redes {
+    justify-content: space-evenly;
+    margin: 25px 0px 10px 0px;
+  }
+  body.autores footer .agradecimientos {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  body.autores footer .agradecimientos a {
+    margin: 10px;
+  }
+  body.autores footer .agradecimientos a img {
+    width: 200px;
+  }
+  body.galeria header {
+    height: 0%;
+    flex-direction: column;
+  }
+  body.galeria header div {
+    margin-left: 0vw;
+    align-items: center;
+    margin-top: 25px;
+  }
+  body.galeria header div h1 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  body.galeria header div h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  body.galeria header nav {
+    margin: 20px 0px 10px 20px;
+    justify-content: flex-start;
+  }
+  body.galeria header nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: normal;
+    margin: 0%;
+  }
+  body.galeria header nav ul li {
+    text-align: left;
+    margin: 6px 0px;
+    font-size: 25px;
+    height: 20px;
+  }
+  body.galeria header nav ul li a {
+    font-size: 20px;
+  }
+  body.galeria header div h1, body.galeria header div h2 {
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+    margin: 0px;
+  }
+  body.galeria header nav ul {
+    list-style-type: disc;
+    padding-left: 0rem;
+  }
+  body.galeria main section {
+    margin: 5vh 7vw;
+  }
+  body.galeria main section div {
+    flex-direction: column;
+  }
+  body.galeria main section div .text {
+    margin-right: 0vw;
+  }
+  body.galeria main section div .text h4 {
+    font-size: 20px;
+  }
+  body.galeria main section div .text p {
+    font-size: 15px;
+    text-align: justify;
+  }
+  body.galeria main section div .gal .carousel.slide {
+    width: 90vw;
+  }
+  body.galeria main section div .gal .carousel-indicators {
+    display: none;
+  }
+  body.galeria main section div .gal .carousel-item p.bootstrap {
+    font-size: 14px;
+  }
+  body.galeria main section div .gal .carousel-item .carousel-caption {
+    bottom: 0rem;
+    padding-bottom: 0rem;
+  }
+  body.galeria footer {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  body.galeria footer .copyredes {
+    flex-direction: column;
+  }
+  body.galeria footer .copyredes .copyright {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  body.galeria footer .copyredes .redes {
+    justify-content: space-evenly;
+    margin: 25px 0px 10px 0px;
+  }
+  body.galeria footer .agradecimientos {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  body.galeria footer .agradecimientos a {
+    margin: 10px;
+  }
+  body.galeria footer .agradecimientos a img {
+    width: 200px;
+  }
 }/*# sourceMappingURL=style.css.map */

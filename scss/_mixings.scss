@@ -1,6 +1,5 @@
 @mixin header {
     height: 25vh;
-    // background-color: $color1;
     background-image: url(../img/assets/textura.png);
     background-size: cover;
     color: #FFFFFF;
@@ -65,6 +64,44 @@
     }
 }
 
+@mixin header425{
+    height: 0%;
+    flex-direction: column;
+    div{
+        margin-left: 0vw;
+        align-items: center;
+        margin-top: 25px;
+        h1 {
+            font-size: 35px;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+    nav{
+        margin: 20px 0px 10px 20px;
+        justify-content: flex-start;
+        ul{
+            flex-direction: column;
+            align-items: flex-start;
+            line-height: normal;
+            margin: 0%;
+            li{
+                text-align:left;
+                margin: 6px 0px;
+                font-size: 25px;
+                height: 20px;
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
 @mixin footer {
     background-color: $color3;
     height: 25vh;
@@ -77,7 +114,7 @@
         justify-content: space-evenly;
         flex-direction: column;
         p {
-            font-size: 11px;
+            font-size: 12px;
             margin:0px 6vw;
         }
         .redes{
@@ -98,14 +135,43 @@
             font-size: 20px;
         }
         display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
         img {
             // padding: 3vh 0vw;
             width: 250px;
         }
     }
 }
+
+@mixin footer425{
+        height: auto;
+        flex-direction: column-reverse;
+        .copyredes{
+
+            flex-direction: column;
+            // align-content: center;
+            .copyright{
+                margin: 20px 0px;
+                display:flex;
+                justify-content: center;
+            }
+            .redes{
+                justify-content: space-evenly;
+                margin: 25px 0px 10px 0px;
+            }
+        }
+        .agradecimientos{
+            flex-direction: column;
+            margin-top: 10px;
+            a{
+            margin: 10px;
+            img{
+                width: 200px;
+            }
+            }
+        }
+    }
 
 @mixin bios {
     display: flex;
