@@ -130,11 +130,11 @@ body.inicio footer .agradecimientos {
   justify-content: space-around;
   align-items: center;
 }
-body.inicio footer .agradecimientos p {
-  font-size: 20px;
-}
 body.inicio footer .agradecimientos img {
   width: 250px;
+}
+body.inicio footer .agradecimientos p {
+  font-size: 20px;
 }
 
 body.autores header {
@@ -346,11 +346,11 @@ body.autores footer .agradecimientos {
   justify-content: space-around;
   align-items: center;
 }
-body.autores footer .agradecimientos p {
-  font-size: 20px;
-}
 body.autores footer .agradecimientos img {
   width: 250px;
+}
+body.autores footer .agradecimientos p {
+  font-size: 20px;
 }
 
 body.galeria header {
@@ -501,11 +501,11 @@ body.galeria footer .agradecimientos {
   justify-content: space-around;
   align-items: center;
 }
-body.galeria footer .agradecimientos p {
-  font-size: 20px;
-}
 body.galeria footer .agradecimientos img {
   width: 250px;
+}
+body.galeria footer .agradecimientos p {
+  font-size: 20px;
 }
 
 body.contacto header {
@@ -652,11 +652,11 @@ body.contacto footer .agradecimientos {
   justify-content: space-around;
   align-items: center;
 }
-body.contacto footer .agradecimientos p {
-  font-size: 20px;
-}
 body.contacto footer .agradecimientos img {
   width: 250px;
+}
+body.contacto footer .agradecimientos p {
+  font-size: 20px;
 }
 
 body.opiniones header {
@@ -802,11 +802,11 @@ body.opiniones footer .agradecimientos {
   justify-content: space-around;
   align-items: center;
 }
-body.opiniones footer .agradecimientos p {
-  font-size: 20px;
-}
 body.opiniones footer .agradecimientos img {
   width: 250px;
+}
+body.opiniones footer .agradecimientos p {
+  font-size: 20px;
 }
 
 * {

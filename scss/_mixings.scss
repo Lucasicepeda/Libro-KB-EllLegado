@@ -131,15 +131,15 @@
 
 
     .agradecimientos {
-        p {
-            font-size: 20px;
-        }
         display: flex;
         justify-content: space-around;
         align-items: center;
         img {
             // padding: 3vh 0vw;
             width: 250px;
+        }
+        p {
+            font-size: 20px;
         }
     }
 }
