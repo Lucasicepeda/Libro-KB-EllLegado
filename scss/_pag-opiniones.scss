@@ -6,6 +6,9 @@ body.opiniones{
 
     main{
         section{
+            .up{
+                @include btnUp
+            }
             h3 {
                 color: $color1;
                 font-weight: 800;

@@ -5,6 +5,9 @@ body.autores {
     }
 
     main section {
+        .up{
+            @include btnUp
+        }
         margin: 14vh 6vw;
 
         div.titulos-sec1 {

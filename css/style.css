@@ -56,6 +56,25 @@ body.inicio header nav ul li a:visited {
 body.inicio main section {
   margin: 14vh 6vw;
 }
+body.inicio main section .up {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  background-color: #22319f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(103, 102, 102);
+}
+body.inicio main section .up .icon-up-open {
+  font-size: 18px;
+  height: 50%;
+}
 body.inicio main section h3 {
   color: #22319f;
   font-weight: 800;
@@ -124,6 +143,11 @@ body.inicio footer .copyredes .redes a {
   color: #FFFFFF;
   font-size: 25px;
   text-decoration: none;
+  transition: all 200ms ease-out;
+}
+body.inicio footer .copyredes .redes a:hover {
+  font-size: 30px;
+  transition: all 200ms ease-in;
 }
 body.inicio footer .agradecimientos {
   display: flex;
@@ -194,6 +218,25 @@ body.autores header nav ul li a:visited {
 }
 body.autores main section {
   margin: 14vh 6vw;
+}
+body.autores main section .up {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  background-color: #22319f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(103, 102, 102);
+}
+body.autores main section .up .icon-up-open {
+  font-size: 18px;
+  height: 50%;
 }
 body.autores main section div.titulos-sec1 {
   display: flex;
@@ -340,6 +383,11 @@ body.autores footer .copyredes .redes a {
   color: #FFFFFF;
   font-size: 25px;
   text-decoration: none;
+  transition: all 200ms ease-out;
+}
+body.autores footer .copyredes .redes a:hover {
+  font-size: 30px;
+  transition: all 200ms ease-in;
 }
 body.autores footer .agradecimientos {
   display: flex;
@@ -410,6 +458,29 @@ body.galeria header nav ul li a:visited {
 }
 body.galeria header nav ul li {
   height: 10px;
+}
+body.galeria main .up {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  background-color: #22319f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(103, 102, 102);
+}
+body.galeria main .up .icon-up-open {
+  font-size: 18px;
+  height: 50%;
+}
+body.galeria main .up .icon-up-open {
+  font-size: 18px;
+  height: 60%;
 }
 body.galeria main section {
   margin: 14vh 6vw;
@@ -495,6 +566,11 @@ body.galeria footer .copyredes .redes a {
   color: #FFFFFF;
   font-size: 25px;
   text-decoration: none;
+  transition: all 200ms ease-out;
+}
+body.galeria footer .copyredes .redes a:hover {
+  font-size: 30px;
+  transition: all 200ms ease-in;
 }
 body.galeria footer .agradecimientos {
   display: flex;
@@ -562,6 +638,25 @@ body.contacto header nav ul li a {
 body.contacto header nav ul li a:visited {
   text-decoration: none;
   color: #FFFFFF;
+}
+body.contacto main .up {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  background-color: #22319f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(103, 102, 102);
+}
+body.contacto main .up .icon-up-open {
+  font-size: 18px;
+  height: 50%;
 }
 body.contacto main .container {
   border-radius: 50px;
@@ -646,6 +741,11 @@ body.contacto footer .copyredes .redes a {
   color: #FFFFFF;
   font-size: 25px;
   text-decoration: none;
+  transition: all 200ms ease-out;
+}
+body.contacto footer .copyredes .redes a:hover {
+  font-size: 30px;
+  transition: all 200ms ease-in;
 }
 body.contacto footer .agradecimientos {
   display: flex;
@@ -716,6 +816,25 @@ body.opiniones header nav ul li a:visited {
 }
 body.opiniones main section {
   margin: 5vh 6vw;
+}
+body.opiniones main section .up {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  background-color: #22319f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(103, 102, 102);
+}
+body.opiniones main section .up .icon-up-open {
+  font-size: 18px;
+  height: 50%;
 }
 body.opiniones main section h3 {
   color: #22319f;
@@ -796,6 +915,11 @@ body.opiniones footer .copyredes .redes a {
   color: #FFFFFF;
   font-size: 25px;
   text-decoration: none;
+  transition: all 200ms ease-out;
+}
+body.opiniones footer .copyredes .redes a:hover {
+  font-size: 30px;
+  transition: all 200ms ease-in;
 }
 body.opiniones footer .agradecimientos {
   display: flex;

@@ -5,6 +5,9 @@ body.contacto {
     }
 
     main {
+        .up{
+            @include btnUp
+        }
         .container {
             border-radius: 50px;
             border: $color1 2px solid;

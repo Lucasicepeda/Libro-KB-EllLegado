@@ -9,7 +9,15 @@ body.galeria {
     }
 
     main {
+        .up{
+            @include btnUp;
+            .icon-up-open{
+                font-size: 18px;
+                height: 60%;
+            }
+        }
         section {
+            
             margin: 14vh 6vw;
 
             h3 {
