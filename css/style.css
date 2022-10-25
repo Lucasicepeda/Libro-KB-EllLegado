@@ -103,6 +103,16 @@ body.inicio main section div div {
 body.inicio main section div div div img {
   width: 70vw;
 }
+body.inicio main section div.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+body.inicio main section div.video iframe {
+  width: 720px;
+  height: 405px;
+}
 body.inicio main .btncomprar {
   position: fixed;
   right: 50px;

@@ -47,6 +47,16 @@ body.inicio {
                     }
                 }
             }
+            div.video {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 30px;
+                iframe{
+                    width:720px; 
+                    height: 405px;
+                }
+            }
         }
         .btncomprar {
             @include btnComprar
