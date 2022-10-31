@@ -1164,6 +1164,20 @@ body {
     width: 90vw;
     height: 225px;
   }
+  body.inicio main .comprar {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body.inicio main .comprar p {
+    text-align: center;
+    margin: 15px 0px;
+  }
+  body.inicio main .comprar a {
+    margin-bottom: 20px;
+  }
   body.inicio footer {
     height: auto;
     flex-direction: column-reverse;
@@ -1239,9 +1253,6 @@ body {
   body.autores main section div button {
     margin: 10px;
   }
-  body.autores main section div span {
-    display: none;
-  }
   body.autores main section div .bioDamian img, body.autores main section div .bioConnie img {
     width: 200px;
     height: 200px;
@@ -1260,6 +1271,23 @@ body {
   }
   body.autores main section div .pOrville p, body.autores main section div .pDionisio p {
     width: 85vw;
+  }
+  body.autores main section .botones span {
+    display: none;
+  }
+  body.autores main .comprar {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body.autores main .comprar p {
+    text-align: center;
+    margin: 15px 0px;
+  }
+  body.autores main .comprar a {
+    margin-bottom: 20px;
   }
   body.autores footer {
     height: auto;
@@ -1323,7 +1351,8 @@ body {
   body.galeria header nav ul li a {
     font-size: 20px;
   }
-  body.galeria header div h1, body.galeria header div h2 {
+  body.galeria header div h1,
+body.galeria header div h2 {
     -webkit-margin-before: 0em;
             margin-block-start: 0em;
     -webkit-margin-after: 0em;
@@ -1362,6 +1391,20 @@ body {
   body.galeria main section div .gal .carousel-item .carousel-caption {
     bottom: 0rem;
     padding-bottom: 0rem;
+  }
+  body.galeria main .comprar {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body.galeria main .comprar p {
+    text-align: center;
+    margin: 15px 0px;
+  }
+  body.galeria main .comprar a {
+    margin-bottom: 20px;
   }
   body.galeria footer {
     height: auto;
