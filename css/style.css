@@ -107,24 +107,44 @@ body.inicio main section div.video {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px;
+  margin: 10vh 0px;
 }
 body.inicio main section div.video iframe {
+  border-radius: 7px;
+  box-shadow: 3px 3px 10px rgb(114, 113, 113);
   width: 720px;
   height: 405px;
 }
-body.inicio main .btncomprar {
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
+body.inicio main .comprar {
+  height: 20vh;
+  background-color: #22319f;
+  margin: 0vh 0vw;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-body.inicio main .btncomprar a img {
-  width: 130px;
-  transition: all 300ms ease-in;
+body.inicio main .comprar p {
+  font-size: 40px;
 }
-body.inicio main .btncomprar:hover img {
+body.inicio main .comprar a button {
+  font-size: 16px;
+}
+body.inicio main .comprar a button {
+  padding: 8px 30px;
   border-radius: 50px;
-  box-shadow: 0px 0px 10px rgb(103, 102, 102);
+  border: #22319f 2px solid;
+  background-color: #ffffff;
+  color: #22319f;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+  border: 2px #ffffff solid;
+  text-decoration: none;
+}
+body.inicio main .comprar a button:hover {
+  color: #FFFFFF;
+  background-color: #22319f;
   transition: all 300ms ease-in;
 }
 body.inicio footer {
@@ -367,6 +387,38 @@ body.autores .btncomprar:hover img {
   box-shadow: 0px 0px 10px rgb(103, 102, 102);
   transition: all 300ms ease-in;
 }
+body.autores .comprar {
+  height: 20vh;
+  background-color: #22319f;
+  margin: 0vh 0vw;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body.autores .comprar p {
+  font-size: 40px;
+}
+body.autores .comprar a button {
+  font-size: 16px;
+}
+body.autores .comprar a button {
+  padding: 8px 30px;
+  border-radius: 50px;
+  border: #22319f 2px solid;
+  background-color: #ffffff;
+  color: #22319f;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+  border: 2px #ffffff solid;
+  text-decoration: none;
+}
+body.autores .comprar a button:hover {
+  color: #FFFFFF;
+  background-color: #22319f;
+  transition: all 300ms ease-in;
+}
 body.autores footer {
   background-color: #424242;
   height: 25vh;
@@ -550,6 +602,39 @@ body.galeria main .btncomprar:hover img {
   box-shadow: 0px 0px 10px rgb(103, 102, 102);
   transition: all 300ms ease-in;
 }
+body.galeria main .comprar {
+  height: 20vh;
+  background-color: #22319f;
+  margin: 0vh 0vw;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body.galeria main .comprar p {
+  font-size: 40px;
+}
+body.galeria main .comprar a button {
+  font-size: 16px;
+}
+body.galeria main .comprar a button {
+  padding: 8px 30px;
+  border-radius: 50px;
+  border: #22319f 2px solid;
+  background-color: #ffffff;
+  color: #22319f;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+  border: 2px #ffffff solid;
+  font-family: "Be Vietnam Pro", sans-serif;
+  line-height: 1.2;
+}
+body.galeria main .comprar a button:hover {
+  color: #FFFFFF;
+  background-color: #22319f;
+  transition: all 300ms ease-in;
+}
 body.galeria footer {
   background-color: #424242;
   height: 25vh;
@@ -723,6 +808,38 @@ body.contacto main .btncomprar a img {
 body.contacto main .btncomprar:hover img {
   border-radius: 50px;
   box-shadow: 0px 0px 10px rgb(103, 102, 102);
+  transition: all 300ms ease-in;
+}
+body.contacto main .comprar {
+  height: 20vh;
+  background-color: #22319f;
+  margin: 0vh 0vw;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body.contacto main .comprar p {
+  font-size: 40px;
+}
+body.contacto main .comprar a button {
+  font-size: 16px;
+}
+body.contacto main .comprar a button {
+  padding: 8px 30px;
+  border-radius: 50px;
+  border: #22319f 2px solid;
+  background-color: #ffffff;
+  color: #22319f;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+  border: 2px #ffffff solid;
+  text-decoration: none;
+}
+body.contacto main .comprar a button:hover {
+  color: #FFFFFF;
+  background-color: #22319f;
   transition: all 300ms ease-in;
 }
 body.contacto footer {
@@ -899,6 +1016,38 @@ body.opiniones main .btncomprar:hover img {
   box-shadow: 0px 0px 10px rgb(103, 102, 102);
   transition: all 300ms ease-in;
 }
+body.opiniones main .comprar {
+  height: 20vh;
+  background-color: #22319f;
+  margin: 0vh 0vw;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body.opiniones main .comprar p {
+  font-size: 40px;
+}
+body.opiniones main .comprar a button {
+  font-size: 16px;
+}
+body.opiniones main .comprar a button {
+  padding: 8px 30px;
+  border-radius: 50px;
+  border: #22319f 2px solid;
+  background-color: #ffffff;
+  color: #22319f;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+  border: 2px #ffffff solid;
+  text-decoration: none;
+}
+body.opiniones main .comprar a button:hover {
+  color: #FFFFFF;
+  background-color: #22319f;
+  transition: all 300ms ease-in;
+}
 body.opiniones footer {
   background-color: #424242;
   height: 25vh;
@@ -1001,6 +1150,19 @@ body {
     margin-left: 0vw;
     margin-top: 20px;
     font-size: 18px;
+  }
+  body.inicio main section div p img {
+    width: 85vw;
+  }
+  body.inicio main section div.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh 0px;
+  }
+  body.inicio main section div.video iframe {
+    width: 90vw;
+    height: 225px;
   }
   body.inicio footer {
     height: auto;

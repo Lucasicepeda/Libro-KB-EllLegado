@@ -68,11 +68,20 @@ body.galeria {
                 background-size:auto;
                 
             }
-
         }
-
         .btncomprar {
             @include btnComprar
+        }
+        .comprar{
+            @include sectionComprar;
+            a{
+                button{
+                    @include botonNombres;
+                    border: 2px $color2 solid;
+                        font-family: 'Be Vietnam Pro', sans-serif;
+                        line-height: 1.2;
+                }
+            }
         }
     }
 

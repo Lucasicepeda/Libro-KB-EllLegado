@@ -13,6 +13,21 @@
                         margin-top: 20px;
                         font-size: 18px;
                     }
+                    p{
+                        img{
+                            width: 85vw;
+                        }
+                    }
+                }
+                div.video {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 10vh 0px;
+                    iframe{
+                        width:90vw; 
+                        height: 225px;
+                    }
                 }
             }
             

@@ -78,6 +78,16 @@ body.autores {
     .btncomprar{
         @include btnComprar;
     }
+    .comprar{
+        @include sectionComprar;
+        a{
+            button{
+                @include botonNombres;
+            border: 2px $color2 solid;
+            text-decoration: none;
+            }
+        }
+    }
     footer {
         @include footer;
     }

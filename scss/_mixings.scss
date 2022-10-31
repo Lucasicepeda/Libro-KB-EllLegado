@@ -303,3 +303,22 @@
         height: 50%;
     }
 }
+
+@mixin sectionComprar{
+    height: 20vh;
+    background-color: $color1;
+    margin: 0vh 0vw;
+    color: $color2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    p{
+        font-size: 40px;
+    }
+    a{
+        button{
+        font-size: 16px;
+        }    
+    }
+    
+}

@@ -33,7 +33,6 @@ body.inicio {
                     img {
                         padding-left: 0vw;
                         width: 400px;
-                        // height: 440px;
                     }
                 }
 
@@ -51,16 +50,28 @@ body.inicio {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin: 30px;
+                margin: 10vh 0px;
                 iframe{
+                    border-radius: 7px;
+                    box-shadow: 3px 3px 10px rgb(114, 113, 113);
                     width:720px; 
                     height: 405px;
                 }
             }
         }
-        .btncomprar {
-            @include btnComprar
+        .comprar{
+            @include sectionComprar;
+            a{
+                button{
+                    @include botonNombres;
+                border: 2px $color2 solid;
+                text-decoration: none;
+                }
+            }
         }
+        // .btncomprar {
+        //     @include btnComprar
+        // }
     }
 
     footer {
